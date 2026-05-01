@@ -162,6 +162,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
   // FAQ accordion states
   const [faqExpanded, setFaqExpanded] = useState<number | null>(null)
   const [deckExpanded, setDeckExpanded] = useState<number | null>(null)
+  const missionCardIcons = [TrendingUp, ClipboardCheck, Star, Package, ArrowRight]
+  const enemyCardIcons = [AlertTriangle, Hammer, Eye, Star, Clock, TrendingUp, ArrowRight, Home]
+  const mapCardIcons = [BookOpen, Eye, ClipboardCheck, Settings, Gamepad2, Package]
+  const priceCardIcons = [MessageCircle, Clock, Star, TrendingUp, ArrowRight]
 
   // Scroll reveal animation
   useEffect(() => {
@@ -317,10 +321,14 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               const sectionId = sectionIds[index]
 
               return (
-                <button
+                <a
                   key={index}
-                  onClick={() => scrollToSection(sectionId)}
-                  className="scroll-reveal group p-6 rounded-xl border border-border
+                  href={`#${sectionId}`}
+                  onClick={(event) => {
+                    event.preventDefault()
+                    scrollToSection(sectionId)
+                  }}
+                  className="scroll-reveal group block p-6 rounded-xl border border-border
                              bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
                              transition-all duration-300 cursor-pointer text-left
                              hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
@@ -338,7 +346,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                   </div>
                   <h3 className="font-semibold mb-2">{card.title}</h3>
                   <p className="text-sm text-muted-foreground">{card.description}</p>
-                </button>
+                </a>
               )
             })}
           </div>
@@ -620,18 +628,40 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksFarmingAndGrowth']} locale={locale}>{t.modules.lucidBlocksFarmingAndGrowth.title}</LinkedTitle></h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksFarmingAndGrowth.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+          <div className="scroll-reveal grid grid-cols-1 gap-4 mb-8">
             {t.modules.lucidBlocksFarmingAndGrowth.sections.map((s: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksFarmingAndGrowth::sections::${index}`]} locale={locale}>
-                      {s.name}
-                    </LinkedTitle>
-                  </h3>
-                </div>
-                <p className="text-muted-foreground text-sm">{s.description}</p>
+                {(() => {
+                  const MissionIcon = missionCardIcons[index % missionCardIcons.length]
+                  return (
+                    <div className="flex items-center gap-2 mb-3">
+                      <MissionIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      <h3 className="font-bold">
+                        <LinkedTitle linkData={moduleLinkMap[`lucidBlocksFarmingAndGrowth::sections::${index}`]} locale={locale}>
+                          {s.name}
+                        </LinkedTitle>
+                      </h3>
+                    </div>
+                  )
+                })()}
+                {s.summary && (
+                  <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-3">
+                    {s.summary}
+                  </p>
+                )}
+                {s.description && (
+                  <p className="text-muted-foreground text-sm mb-3">{s.description}</p>
+                )}
+                {Array.isArray(s.details) && s.details.length > 0 && (
+                  <ul className="space-y-2">
+                    {s.details.map((detail: string, di: number) => (
+                      <li key={di} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <ArrowRight className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        <span>{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             ))}
           </div>
@@ -655,10 +685,26 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {t.modules.lucidBlocksBestEarlyUnlocks.priorities.map((p: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.2)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-[hsl(var(--nav-theme-light)/0.12)] border-[hsl(var(--nav-theme-light)/0.4)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{p.priority}</span>
-                </div>
+                {(() => {
+                  const EnemyIcon = enemyCardIcons[index % enemyCardIcons.length]
+                  const badgeLabel = p.priority || p.type
+                  const roleLabel = p.role
+                  return (
+                    <div className="flex items-center gap-2 mb-3">
+                      <EnemyIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      {badgeLabel && (
+                        <span className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.2)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-[hsl(var(--nav-theme-light)/0.12)] border-[hsl(var(--nav-theme-light)/0.4)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>
+                          {badgeLabel}
+                        </span>
+                      )}
+                      {roleLabel && (
+                        <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.28)] text-muted-foreground">
+                          {roleLabel}
+                        </span>
+                      )}
+                    </div>
+                  )
+                })()}
                 <h3 className="font-bold mb-2">
                   <LinkedTitle linkData={moduleLinkMap[`lucidBlocksBestEarlyUnlocks::priorities::${index}`]} locale={locale}>
                     {p.name}
@@ -682,13 +728,21 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             {t.modules.lucidBlocksAchievementTracker.groups.map((group: any, gi: number) => (
               <div key={gi} className="p-6 bg-white/5 border border-border rounded-xl">
                 <div className="flex items-center gap-2 mb-4">
-                  <ClipboardCheck className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  {(() => {
+                    const MapIcon = mapCardIcons[gi % mapCardIcons.length]
+                    return <MapIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  })()}
                   <h3 className="font-bold text-lg">
                     <LinkedTitle linkData={moduleLinkMap[`lucidBlocksAchievementTracker::groups::${gi}`]} locale={locale}>
                       {group.name}
                     </LinkedTitle>
                   </h3>
                 </div>
+                {group.focus && (
+                  <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-4">
+                    {group.focus}
+                  </p>
+                )}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {group.achievements.map((a: any, ai: number) => (
                     <div key={ai} className="p-3 bg-white/5 border border-border rounded-lg">
@@ -710,22 +764,68 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSingleplayerAndPlatformFAQ']} locale={locale}>{t.modules.lucidBlocksSingleplayerAndPlatformFAQ.title}</LinkedTitle></h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSingleplayerAndPlatformFAQ.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.faqs.map((faq: any, index: number) => (
-              <div key={index} className="border border-border rounded-xl overflow-hidden">
-                <button
-                  onClick={() => setFaqExpanded(faqExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
-                >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${faqExpanded === index ? "rotate-180" : ""}`} />
-                </button>
-                {faqExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
-                )}
+          {Array.isArray(t.modules.lucidBlocksSingleplayerAndPlatformFAQ.items) && t.modules.lucidBlocksSingleplayerAndPlatformFAQ.items.length > 0 ? (
+            <div className="scroll-reveal space-y-4">
+              <div className="hidden md:block overflow-x-auto rounded-xl border border-border">
+                <table className="w-full text-sm">
+                  <thead className="bg-[hsl(var(--nav-theme)/0.08)]">
+                    <tr>
+                      <th className="text-left px-4 py-3">Region</th>
+                      <th className="text-left px-4 py-3">Base Price</th>
+                      <th className="text-left px-4 py-3">Current Offer</th>
+                      <th className="text-left px-4 py-3">Current Price</th>
+                      <th className="text-left px-4 py-3">Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.items.map((item: any, index: number) => (
+                      <tr key={index} className="border-t border-border/70">
+                        <td className="px-4 py-3 font-semibold">{item.region_or_context}</td>
+                        <td className="px-4 py-3 text-muted-foreground">{item.base_price}</td>
+                        <td className="px-4 py-3 text-muted-foreground">{item.current_offer}</td>
+                        <td className="px-4 py-3 text-[hsl(var(--nav-theme-light))]">{item.current_price}</td>
+                        <td className="px-4 py-3 text-muted-foreground">{item.notes}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
-            ))}
-          </div>
+              <div className="md:hidden space-y-3">
+                {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.items.map((item: any, index: number) => {
+                  const PriceIcon = priceCardIcons[index % priceCardIcons.length]
+                  return (
+                    <div key={index} className="p-5 bg-white/5 border border-border rounded-xl">
+                      <div className="flex items-center gap-2 mb-2">
+                        <PriceIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                        <h3 className="font-semibold">{item.region_or_context}</h3>
+                      </div>
+                      <p className="text-sm text-muted-foreground"><span className="font-medium">Base:</span> {item.base_price}</p>
+                      <p className="text-sm text-muted-foreground"><span className="font-medium">Offer:</span> {item.current_offer}</p>
+                      <p className="text-sm text-[hsl(var(--nav-theme-light))]"><span className="font-medium">Current:</span> {item.current_price}</p>
+                      <p className="text-sm text-muted-foreground mt-2">{item.notes}</p>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          ) : (
+            <div className="scroll-reveal space-y-2">
+              {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.faqs.map((faq: any, index: number) => (
+                <div key={index} className="border border-border rounded-xl overflow-hidden">
+                  <button
+                    onClick={() => setFaqExpanded(faqExpanded === index ? null : index)}
+                    className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+                  >
+                    <span className="font-semibold">{faq.question}</span>
+                    <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${faqExpanded === index ? "rotate-180" : ""}`} />
+                  </button>
+                  {faqExpanded === index && (
+                    <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 

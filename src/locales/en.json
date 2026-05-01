@@ -475,118 +475,202 @@
     "lucidBlocksFarmingAndGrowth": {
       "title": "Far Far West Missions and Bounties",
       "displayType": "mixedCards",
-      "intro": "Far Far West contracts revolve around bounty objectives, side tasks, enemy pressure, and extraction timing. Clear routes create better payouts with lower wipe risk.",
+      "intro": "Far Far West is built around short co-op bounty runs where robot cowboys gear up in town, choose a contract, drop into a map, complete objectives, fight enemies and bosses, then return with loot. Runs can include main objectives, optional side activities, treasure, mining outcrops, boss encounters, and extraction decisions.",
       "sections": [
         {
-          "name": "Far Far West Contract Selection",
-          "description": "Select Far Far West contracts based on team readiness, objective complexity, and expected combat density."
+          "name": "Far Far West Town Sheriff Contracts",
+          "summary": "The main run starts in town, where players choose a bounty contract before deploying.",
+          "details": [
+            "Far Far West contracts send solo players or 1-4 player co-op crews into the weird west to hunt dangerous targets.",
+            "The Far Far West Town Sheriff contract setup frames each run around a bounty objective and a final payout.",
+            "Before deploying in Far Far West, players can prepare weapons, spells, character upgrades, and gear in the hub town."
+          ]
         },
         {
-          "name": "Far Far West Objective Routing",
-          "description": "In Far Far West, efficient objective routing reduces wasted movement and keeps resources for boss phases."
+          "name": "Far Far West Main Objective Flow",
+          "summary": "Each run combines map objectives with a boss encounter that closes out the mission.",
+          "details": [
+            "Far Far West mission tasks are marked on the map after deployment.",
+            "Far Far West objective-and-boss pairings can include firing an artillery cannon before fighting an evil locomotive.",
+            "Another Far Far West documented objective example involves firing a nuclear missile as part of a bounty scenario."
+          ]
         },
         {
-          "name": "Far Far West Bonus Bounties",
-          "description": "Optional Far Far West bounty targets can improve payouts when squads keep cooldowns and ammo stable."
+          "name": "Far Far West Side Missions and Optional Objectives",
+          "summary": "Players can detour from the main route to search for extra rewards before pushing toward the boss.",
+          "details": [
+            "Far Far West optional side objectives can appear while traveling between core mission tasks.",
+            "Far Far West treasure chests and mining outcrops can provide upgrade currency for town progression.",
+            "Far Far West secret missions and collectables are best routed before the boss phase because exploration becomes riskier once extraction pressure begins."
+          ]
         },
         {
-          "name": "Far Far West Extraction Decisions",
-          "description": "Far Far West teams should extract after core objective completion if resources fall below safe thresholds."
+          "name": "Far Far West Rewards and Upgrade Currency",
+          "summary": "Successful contracts feed back into permanent preparation and build improvement.",
+          "details": [
+            "Far Far West loot from contracts can be spent on arsenal upgrades, gear, fresh abilities, and cosmetic unlocks.",
+            "Far Far West official descriptions highlight upgrades for guns, spells, abilities, perks, robot cowboy skins, and steed skins.",
+            "Far Far West run design encourages players to decide whether to chase extra objectives for better rewards or return safely."
+          ]
+        },
+        {
+          "name": "Far Far West Boss, Bounty, and Extraction",
+          "summary": "The end of a run usually pushes the crew toward a major fight and a getaway.",
+          "details": [
+            "Far Far West runs can end with powerful boss encounters, including large supernatural or mechanical threats.",
+            "After the target is handled in Far Far West, the priority becomes getting paid and getting out alive.",
+            "Playing too greedily in Far Far West after the boss can make exploration harder because enemy pressure and extraction timing become more dangerous."
+          ]
         }
       ],
       "growthMilestones": [
-        "Far Far West Complete Core Contract",
-        "Far Far West Add Optional Objective",
-        "Far Far West Secure Bounty Reward",
-        "Far Far West Extract with Full Squad"
+        "Far Far West Mission Flow: Contract Setup in Town",
+        "Far Far West Mission Flow: Objective Route and Side Tasks",
+        "Far Far West Mission Flow: Boss Contract Finale",
+        "Far Far West Mission Flow: Extraction and Payout Decision"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Far Far West Bosses and Enemies",
       "displayType": "priorityCards",
-      "intro": "Far Far West combat escalates around elite enemies and boss phases. Teams that identify threat order and save cooldowns for peak danger clear consistently.",
+      "intro": "Combat in Far Far West mixes FPS gunplay, spellcasting, mobility, and co-op positioning. Players face regular enemy waves while moving between objectives, then close many runs with a larger bounty target or boss-style encounter.",
       "priorities": [
         {
-          "name": "Far Far West Elite Target Control",
-          "priority": "Essential",
-          "description": "In Far Far West, eliminate high-damage elite enemies first to prevent team collapse during wave spikes."
+          "name": "Far Far West Vicious Skeletons",
+          "type": "Common Enemy",
+          "role": "Swarm pressure",
+          "description": "Skeletons are one of the most visible enemy groups in Far Far West. They pressure players during objective routes and force constant movement, reload discipline, and spell timing."
         },
         {
-          "name": "Far Far West Boss Burst Window",
-          "priority": "Very High",
-          "description": "Coordinate Far Far West burst tools during exposed boss windows instead of spreading damage too early."
+          "name": "Far Far West Hostile Robot Bandits",
+          "type": "Common Enemy",
+          "role": "Gunfight pressure",
+          "description": "Robot bandits appear as hostile ranged threats in Far Far West. They fit the core shooter rhythm: aim quickly, keep moving, and avoid being surrounded while objectives are active."
         },
         {
-          "name": "Far Far West Area Denial Enemies",
-          "priority": "Very High",
-          "description": "Clear Far Far West enemies that block movement lanes before they trap revives or extraction routes."
+          "name": "Far Far West Undead Nightmares",
+          "type": "Supernatural Enemy Group",
+          "role": "Theme-defining threat",
+          "description": "Far Far West launch material frames the enemy roster around undead nightmares, giving the game its mix of western bounty hunting and supernatural chaos."
         },
         {
-          "name": "Far Far West Summoner Threats",
-          "priority": "High",
-          "description": "Prioritize Far Far West summoner-style enemies that extend fights and drain ammo resources."
+          "name": "Far Far West Giant Vultures",
+          "type": "Large Enemy",
+          "role": "High-visibility threat",
+          "description": "Giant vultures are named in Far Far West launch coverage as dangerous enemy types players may face, making encounters feel less predictable than standard bandit fights."
         },
         {
-          "name": "Far Far West Cleanup Discipline",
-          "priority": "High",
-          "description": "Maintain Far Far West target discipline after boss kills to avoid late wipes from leftover waves."
+          "name": "Far Far West Evil Locomotive",
+          "type": "Boss Encounter",
+          "role": "Run-ending target",
+          "description": "Far Far West mission coverage describes an objective sequence before a shootout with an evil locomotive, making this train-style boss one of the clearest documented major encounters."
+        },
+        {
+          "name": "Far Far West Ghost Trains",
+          "type": "Supernatural Boss Threat",
+          "role": "Major bounty danger",
+          "description": "Ghost trains in Far Far West are described as deadly weird-west threats that require more than fast shooting to survive."
+        },
+        {
+          "name": "Far Far West Giant Spectral Necromancer",
+          "type": "Boss Objective Target",
+          "role": "Supernatural boss scenario",
+          "description": "Far Far West mission coverage includes a randomized objective involving a giant spectral necromancer, highlighting the mix of boss targets, heavy firepower, and magical combat."
+        },
+        {
+          "name": "Far Far West Powerful Bosses",
+          "type": "Boss Category",
+          "role": "Contract finale",
+          "description": "Far Far West official descriptions mention waves of enemies and powerful bosses. These encounters are the payout moments where weapons, spells, perks, and team coordination matter most."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Far Far West Maps and Secrets",
       "displayType": "achievementGrid",
-      "intro": "Far Far West exploration rewards players who track region-specific secrets, hidden objectives, and collectible routes during normal contract progression.",
+      "intro": "Far Far West hides secret objectives across multiple maps, including bell puzzles, cactus parent-child returns, medallion challenges, mushroom sequences, Area 41 symbol inputs, and snowman-part collection. Several secrets connect across maps, especially the Area 41 symbol puzzle and the Far Far North unlock route.",
       "groups": [
         {
-          "name": "Far Far West Core Regions",
+          "name": "Far Far West Map Secrets: Far West",
+          "focus": "Bell minigames, Far Far North quest step, Area 41 symbol",
           "achievements": [
             {
-              "title": "Far Far West Desert Routes",
-              "description": "Map high-value contract paths across open desert regions."
+              "title": "Far Far West Bell Route",
+              "description": "Complete three bell minigames by interacting with the ground bell and shooting sky bells in the shown order."
             },
             {
-              "title": "Far Far West Canyon Entries",
-              "description": "Track canyon-side entrances that reduce exposure during mission starts."
+              "title": "Far Far West Bell Progress Pickup",
+              "description": "Pick up the bell after each completed minigame and finish the quest at the top building marker."
+            },
+            {
+              "title": "Far Far West Symbol Collection",
+              "description": "Collect the Area 41 symbol from the purple-marked location and track the Far Far North mission marker."
             }
           ]
         },
         {
-          "name": "Far Far West Secret Paths",
+          "name": "Far Far West Map Secrets: Desert",
+          "focus": "Cactus parent-child return puzzle and Area 41 symbol",
           "achievements": [
             {
-              "title": "Far Far West Hidden Passages",
-              "description": "Identify hidden pathways that bypass dense enemy patrols."
+              "title": "Far Far West Cactus Family Puzzle",
+              "description": "Find the cactus children and return each one to the matching numbered cactus parent."
             },
             {
-              "title": "Far Far West Shortcut Exits",
-              "description": "Use shortcut exits to secure rewards before resource depletion."
+              "title": "Far Far West Desert Symbol Collection",
+              "description": "Complete cactus pairs in flexible order, then collect the Desert symbol for the Area 41 puzzle."
             }
           ]
         },
         {
-          "name": "Far Far West Collectibles",
+          "name": "Far Far West Map Secrets: Canyon",
+          "focus": "Medallion minigames, final medallion door, Far Far North quest step, Area 41 symbol",
           "achievements": [
             {
-              "title": "Far Far West Collectible Routes",
-              "description": "Plan repeatable collectible routes that fit normal contract timing."
+              "title": "Far Far West Canyon Medallion Route",
+              "description": "Use dynamite to open the northern cave, shoot 10 blue targets on the western route, and dig up the eastern medallion."
             },
             {
-              "title": "Far Far West Secret Objectives",
-              "description": "Complete hidden objective chains tied to extra reward opportunities."
+              "title": "Far Far West Canyon Final Door",
+              "description": "Collect three medallions, secure the final medallion at the finish marker, and place all four into the nearby door."
             }
           ]
         },
         {
-          "name": "Far Far West Extraction Spots",
+          "name": "Far Far West Map Secrets: Woodlands",
+          "focus": "Numbered mushroom sequence and Area 41 symbol",
           "achievements": [
             {
-              "title": "Far Far West Safe Extract Zones",
-              "description": "Memorize low-pressure extraction spots for different mission layouts."
+              "title": "Far Far West Mushroom Sequence",
+              "description": "Find mushrooms numbered 1 through 7, then interact with them in strict numerical order."
             },
             {
-              "title": "Far Far West Emergency Exits",
-              "description": "Prepare backup exits when primary extraction lanes are compromised."
+              "title": "Far Far West Woodlands Symbol Collection",
+              "description": "Return to the finish marker after the sequence and collect the Woodlands symbol for Area 41."
+            }
+          ]
+        },
+        {
+          "name": "Far Far West Map Secrets: Area 41",
+          "focus": "Cross-map symbol puzzle and Far Far North quest step",
+          "achievements": [
+            {
+              "title": "Far Far West Area 41 Symbol Input",
+              "description": "Bring symbols from Far West, Desert, Canyon, and Woodlands, then place them on slabs in dot-count order."
+            },
+            {
+              "title": "Far Far West Area 41 Mission Link",
+              "description": "Use the marked Area 41 mission location as part of the Far Far North unlock route."
+            }
+          ]
+        },
+        {
+          "name": "Far Far West Map Secrets: Far Far North",
+          "focus": "Snowman parts secret",
+          "achievements": [
+            {
+              "title": "Far Far West Snowman Secret Route",
+              "description": "Find the separate snowman parts, roll each part to the finish marker, and assemble all parts to complete the secret."
             }
           ]
         }
@@ -594,28 +678,57 @@
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Far Far West Price",
-      "displayType": "accordion",
-      "intro": "Far Far West pricing questions usually center on Early Access value, launch discounts, and expected price movement before version 1.0.",
+      "displayType": "pricingTable",
+      "intro": "The official Far Far West Early Access price is listed as $19.99 / €19.99 / £15.99, with Steam showing a 10% launch-week discount during the launch window. The developer also states that the price is expected to increase when the game transitions from Early Access to version 1.0.",
+      "items": [
+        {
+          "region_or_context": "Steam US Store",
+          "base_price": "$19.99",
+          "current_offer": "10% off launch-week discount",
+          "current_price": "$17.99",
+          "notes": "Steam store and Steam Community listings show the US launch discount price during the Early Access launch window."
+        },
+        {
+          "region_or_context": "Euro Pricing",
+          "base_price": "€19.99",
+          "current_offer": "Launch-week discount applies where supported by Steam regional store settings",
+          "current_price": "€17.99 where the same 10% launch discount is active",
+          "notes": "The official Early Access FAQ lists €19.99 as the base Early Access price."
+        },
+        {
+          "region_or_context": "UK Pricing",
+          "base_price": "£15.99",
+          "current_offer": "Launch-week discount applies where supported by Steam regional store settings",
+          "current_price": "Discounted price varies by Steam regional display",
+          "notes": "The official Early Access FAQ lists £15.99 as the UK base price."
+        },
+        {
+          "region_or_context": "Regional Pricing",
+          "base_price": "Varies by Steam region",
+          "current_offer": "Region-specific Steam pricing",
+          "current_price": "Check the local Steam store page",
+          "notes": "Far Far West states that regional pricing is available, with the full regional list handled through official community channels."
+        },
+        {
+          "region_or_context": "Early Access to 1.0",
+          "base_price": "Early Access base price",
+          "current_offer": "Lower Early Access pricing before full launch",
+          "current_price": "Current Steam store price applies",
+          "notes": "The Far Far West developer states the price is likely to increase when the game transitions from Early Access to 1.0 because more content is planned."
+        }
+      ],
       "faqs": [
         {
           "question": "What is the current Far Far West price on Steam?",
-          "answer": "Far Far West is sold on Steam, and the live store page is the authoritative source for current regional pricing."
+          "answer": "Far Far West is listed on Steam at $19.99, with launch-period discounts appearing during specific promotional windows."
         },
         {
-          "question": "Did Far Far West launch with a discount?",
-          "answer": "Far Far West launched with Early Access promotional pricing and periodic sale participation on Steam."
+          "question": "Will Far Far West pricing change after Early Access?",
+          "answer": "Far Far West is expected to increase in price as it moves toward version 1.0 with expanded content."
         },
         {
-          "question": "Will the Far Far West price change after Early Access?",
-          "answer": "Far Far West indicates that the price is planned to increase as the game moves toward full release."
-        },
-        {
-          "question": "Does Far Far West pricing vary by region?",
-          "answer": "Far Far West pricing can vary by currency and region according to Steam regional pricing policy."
-        },
-        {
-          "question": "Is Far Far West worth buying during Early Access?",
-          "answer": "Far Far West already offers a full co-op gameplay loop, and Early Access buyers also track ongoing content growth."
+          "question": "Does Far Far West use regional pricing?",
+          "answer": "Far Far West uses Steam regional pricing, so local currency and final checkout values vary by region."
         }
       ]
     },
