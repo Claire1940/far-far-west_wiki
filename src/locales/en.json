@@ -123,22 +123,22 @@
       {
         "icon": "Gamepad2",
         "title": "Far Far West System Requirements",
-        "description": "Minimum and recommended PC hardware checklist"
+        "description": "Minimum vs recommended PC specs, DirectX 12, and SSD guidance"
       },
       {
         "icon": "Settings",
         "title": "Far Far West Steam Deck",
-        "description": "Controller setup, handheld tuning, and compatibility"
+        "description": "Verified status, controller behavior, SteamOS notes, and cloud saves"
       },
       {
         "icon": "Clock",
         "title": "Far Far West Reviews and Player Count",
-        "description": "Review sentiment and active player momentum"
+        "description": "Review sentiment, live players, all-time peak, and demo momentum"
       },
       {
         "icon": "Shield",
         "title": "Far Far West Roadmap and Updates",
-        "description": "Patch cadence, upcoming features, and EA priorities"
+        "description": "Roadmap scope, hotfix changes, balance updates, and known issues"
       }
     ]
   },
@@ -734,105 +734,167 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Far Far West System Requirements",
-      "displayType": "accordion",
-      "intro": "Far Far West system requirement checks help players confirm whether their PC can maintain stable co-op performance across dense PvE encounters.",
-      "faqs": [
+      "displayType": "comparisonTable",
+      "eyebrow": "PC Specs",
+      "subtitle": "Check the official minimum and recommended PC specs before jumping into this chaotic 1-4 player co-op shooter.",
+      "intro": "Far Far West supports Windows PC and uses DirectX 12 by default. The game lists an SSD recommendation for both minimum and recommended setups, with 10 GB of available storage required.",
+      "specs": [
         {
-          "question": "What platform does Far Far West currently support?",
-          "answer": "Far Far West is currently available on PC via Steam."
+          "spec": "Operating System",
+          "minimum": "Windows 10, 64-bit required",
+          "recommended": "Windows 11, 64-bit required"
         },
         {
-          "question": "What hardware should I prioritize for Far Far West?",
-          "answer": "For Far Far West, prioritize a stable GPU, enough RAM, and SSD storage for smoother loading and mission transitions."
+          "spec": "Processor",
+          "minimum": "Intel Core i5-7600K or AMD Ryzen 5 1600",
+          "recommended": "Intel Core i5-10600KF or AMD Ryzen 5 3600X"
         },
         {
-          "question": "Does Far Far West list minimum and recommended specs?",
-          "answer": "Far Far West provides minimum and recommended PC specifications on its Steam store page."
+          "spec": "Memory",
+          "minimum": "8 GB RAM",
+          "recommended": "16 GB RAM"
         },
         {
-          "question": "Is SSD strongly recommended for Far Far West?",
-          "answer": "Far Far West benefits from SSD installation, especially for faster session loading and fewer stutters during map transitions."
+          "spec": "Graphics",
+          "minimum": "Nvidia GeForce GTX 1660 or AMD Radeon RX 590",
+          "recommended": "Nvidia GeForce RTX 2060 or AMD Radeon RX 5600XT"
         },
         {
-          "question": "Can Far Far West run on lower-end systems?",
-          "answer": "Far Far West can run on supported lower-tier setups if settings are tuned for performance and background load is controlled."
+          "spec": "DirectX",
+          "minimum": "Version 12",
+          "recommended": "Version 12"
+        },
+        {
+          "spec": "Storage",
+          "minimum": "10 GB available space",
+          "recommended": "10 GB available space"
+        },
+        {
+          "spec": "Additional Notes",
+          "minimum": "SSD recommended",
+          "recommended": "SSD recommended"
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Far Far West Steam Deck",
-      "displayType": "settingCards",
-      "intro": "Far Far West handheld play is most consistent when Steam Deck users pair tested compatibility settings with practical controller layouts.",
-      "settings": [
+      "title": "Far Far West Steam Deck Compatibility",
+      "displayType": "accordion",
+      "eyebrow": "Handheld Play",
+      "subtitle": "Far Far West is listed as Steam Deck Verified, with gamepad input, readable interface text, and default graphics settings that perform well on Deck.",
+      "intro": "SteamDB lists Far Far West under the Steam Deck Verified category, with SteamOS compatibility and gamepad support. The game also notes an active internet connection requirement for single-player gameplay.",
+      "items": [
         {
-          "name": "Far Far West Deck Compatibility Mode",
-          "type": "Compatibility",
-          "description": "Use a stable Proton profile for Far Far West on Steam Deck and validate input behavior before long sessions."
+          "label": "Steam Deck Status",
+          "value": "Verified",
+          "content": "Far Far West is listed with the Steam Deck category as Verified and SteamOS compatibility as Compatible. The tested build ID is 22879303, with a Steam Deck test timestamp of April 24, 2026 UTC."
         },
         {
-          "name": "Far Far West Controller Layout",
-          "type": "Input Setup",
-          "description": "Choose a community-tested Far Far West layout to improve menu flow and combat actions on handheld controls."
+          "label": "Controller Support",
+          "value": "Partial Controller Support",
+          "content": "The game supports gamepad input and SteamDB lists Partial Controller Support. All functionality is listed as accessible when using the default controller configuration on Steam Deck."
         },
         {
-          "name": "Far Far West Performance Profile",
-          "type": "Performance",
-          "description": "Tune Far Far West frame limits and scaling settings for consistent combat clarity in dense missions."
+          "label": "Steam Deck Interface",
+          "value": "Deck-friendly UI",
+          "content": "SteamDB lists Steam Deck controller icons, legible in-game interface text, and a default graphics configuration that performs well on Steam Deck."
         },
         {
-          "name": "Far Far West Co-op Handheld Check",
-          "type": "Network Stability",
-          "description": "Before co-op runs, test Far Far West network stability on Steam Deck to avoid disconnects during objective phases."
+          "label": "Internet Requirement",
+          "value": "Internet required for single-player",
+          "content": "Single-player gameplay requires an active internet connection on Steam Deck and SteamOS."
+        },
+        {
+          "label": "External Controller Note",
+          "value": "Manual controller switching",
+          "content": "Far Far West does not default to external Bluetooth or USB controllers on Deck and may require manually switching the active controller through the Quick Access Menu."
+        },
+        {
+          "label": "Steam Cloud and Saves",
+          "value": "Steam Cloud supported",
+          "content": "Far Far West supports Steam Cloud, and the first Early Access hotfix fixed Steam Deck and PC save sync."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Far Far West Reviews and Player Count",
-      "displayType": "timeline",
-      "intro": "Far Far West momentum is best tracked through review sentiment, concurrent player activity, and community response to each update cycle.",
-      "entries": [
+      "displayType": "metricCards",
+      "eyebrow": "Community Momentum",
+      "subtitle": "Track the latest Steam review sentiment, live player count, all-time peak, and launch momentum for Far Far West.",
+      "intro": "Far Far West launched into Steam Early Access on April 28, 2026 and quickly built strong Steam activity. The game is listed with Overwhelmingly Positive review sentiment and a large launch-week player base.",
+      "items": [
         {
-          "type": "Launch Signal",
-          "title": "Far Far West Early Access Reception",
-          "description": "Far Far West launch reception combines Steam review sentiment with active discussion on community channels."
+          "label": "Steam User Reviews",
+          "value": "Overwhelmingly Positive",
+          "content": "Steam lists Far Far West with Overwhelmingly Positive English reviews, with 97% of 6,018 English user reviews marked positive."
         },
         {
-          "type": "Population Trend",
-          "title": "Far Far West Concurrent Players",
-          "description": "Far Far West player-count trends indicate when new updates, sales, or events increase active sessions."
+          "label": "All-Language Review Breakdown",
+          "value": "9,466 positive / 236 negative",
+          "content": "Steam's review filter shows 9,702 total review entries, including 9,466 positive and 236 negative reviews."
         },
         {
-          "type": "Review Health",
-          "title": "Far Far West Review Direction",
-          "description": "Far Far West review direction helps players evaluate quality-of-life progress across update windows."
+          "label": "SteamDB Rating Snapshot",
+          "value": "94.58% rating",
+          "content": "SteamDB lists Far Far West with a 94.58% rating and more than 9,000 tracked reviews."
         },
         {
-          "type": "Community Activity",
-          "title": "Far Far West Discussion Momentum",
-          "description": "Far Far West Discord and Steam discussions reveal recurring issues, requested features, and build meta shifts."
+          "label": "Live Steam Players",
+          "value": "25,922",
+          "content": "SteamDB's player counter listed 25,922 players live on Steam on May 1, 2026."
+        },
+        {
+          "label": "All-Time Peak",
+          "value": "30,712",
+          "content": "Far Far West reached an all-time peak of 30,712 concurrent Steam players on May 1, 2026."
+        },
+        {
+          "label": "Demo Momentum",
+          "value": "400,000+ demo players",
+          "content": "The Early Access launch announcement highlighted more than 400,000 demo players and a 98% Overwhelmingly Positive demo rating before launch."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Far Far West Roadmap and Updates",
-      "displayType": "steps",
-      "intro": "Far Far West roadmap tracking focuses on patch cadence, planned gameplay expansion, balancing priorities, and upcoming Early Access milestones.",
-      "steps": [
+      "displayType": "accordion",
+      "eyebrow": "Updates",
+      "subtitle": "Follow Far Far West Early Access roadmap items, launch-week hotfixes, balance updates, quality-of-life changes, and future content plans.",
+      "intro": "Far Far West is using a feedback-led Early Access roadmap. The current update track includes new content, replayability systems, mission modifiers, weekly challenges, cosmetics, and post-launch hotfixes.",
+      "items": [
         {
-          "title": "Far Far West Patch Cadence",
-          "description": "Track how often Far Far West releases hotfixes and quality-of-life updates after each feedback cycle."
+          "label": "Early Access Content Roadmap",
+          "value": "New enemies, quests, weapons, spells, and replayability systems",
+          "content": "The Early Access roadmap includes a new Zurkers army, quests and secrets in every map, new weapons, new jokers, new spells, exploration events and gameplay, a new main objective, and replayability systems for late game."
         },
         {
-          "title": "Far Far West Content Expansion",
-          "description": "Follow Far Far West plans for new enemies, weapons, progression depth, and mode variety."
+          "label": "Future Systems",
+          "value": "Companies, mission modifiers, weekly challenges, and high-risk rewards",
+          "content": "Planned systems include community goals and Companies, high-risk high-reward systems, mission modifiers, punishing extraction, weekly challenges, and skins for players, mounts, and weapons."
         },
         {
-          "title": "Far Far West Balance Direction",
-          "description": "Monitor Far Far West balance passes for weapon tuning, spell interactions, and difficulty adjustments."
+          "label": "Hotfix 1 - Version 583",
+          "value": "Released April 30, 2026",
+          "content": "The first Early Access hotfix increased save file backups from 10 to 30, added mission-finish backups, added manual backup and save erase tools, and added automatic language setting based on the player's operating system."
         },
         {
-          "title": "Far Far West Community Priorities",
-          "description": "Watch Far Far West community channels for roadmap votes and developer responses to high-impact requests."
+          "label": "Balance Changes",
+          "value": "Bow XP, spell XP, and boss health updates",
+          "content": "Hotfix 1 buffed Bow XP, buffed XP on Level 1 spells including Fireball, Strikes, Thrower, and Drain, increased XP on all Cactus spells, and raised Cryptic Saloon health from 40 to 60 base planks with difficulty scaling."
+        },
+        {
+          "label": "Bug Fixes",
+          "value": "50+ fixes",
+          "content": "Hotfix 1 fixed Steam Deck and PC save sync, AMD Frame Generation display behavior, lobby autokick behavior above four players, Laser Cannon objective calculations, Payload objective pathing on Far Far North, Cheapskate Joker HP updates, Trainwrecks questline data syncing, Secret-related joker sale pricing, and Willy Billy's gatling quest."
+        },
+        {
+          "label": "Quality-of-Life Updates",
+          "value": "Accessibility, controls, stutter messaging, and network improvements",
+          "content": "Hotfix 1 improved screen shake and screen flash accessibility options, reduced selected sound effects, changed Second Wind Joker healing behavior, made the chat key rebindable, improved Canyon secret target visibility, added shader compilation messaging, removed SteamID from the HUD, and improved the internal network system."
+        },
+        {
+          "label": "Tracked Known Issues",
+          "value": "ROG Ally UI, long-session memory behavior, quest blocker, and Deadeye adjustment",
+          "content": "The current known issue list includes ROG Ally UI problems, possible memory leak issues during long play sessions, Disgrace Joker blocking Otto's riding quests, and Deadeye being adjusted based on feedback."
         }
       ]
     }
