@@ -23,6 +23,14 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
 }
 
+function toAbsoluteUrl(url: string, siteUrl: string): string {
+  if (url.startsWith('http://') || url.startsWith('https://')) {
+    return url
+  }
+  const normalizedPath = url.startsWith('/') ? url : `/${url}`
+  return `${siteUrl}${normalizedPath}`
+}
+
 export default async function UnifiedContentPage({ params }: PageProps) {
   const { locale, slug } = await params
 
@@ -218,7 +226,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://far-far-west.wiki'
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -252,8 +260,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         openGraph: {
+          type: 'website',
           title,
           description,
+          images: [`${siteUrl}/images/hero.webp`],
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
         },
         robots: {
@@ -270,13 +280,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Far Far West`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description: `Browse all ${contentType} content for Far Far West`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          type: 'website',
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for Far Far West`,
+          images: [`${siteUrl}/images/hero.webp`],
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+        },
         robots: {
           index: true,
           follow: true,
@@ -306,13 +323,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       const fullPath = `/${slug.join('/')}`
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
+        title: `${metadata.title} - Far Far West`,
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
+          type: 'article',
           title: metadata.title,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          images: metadata.image ? [toAbsoluteUrl(metadata.image, siteUrl)] : [`${siteUrl}/images/hero.webp`],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
         },
         robots: {
@@ -341,13 +359,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           const fullPath = `/${slug.join('/')}`
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
+            title: `${metadata.title} - Far Far West`,
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
+              type: 'article',
               title: metadata.title,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              images: metadata.image ? [toAbsoluteUrl(metadata.image, siteUrl)] : [`${siteUrl}/images/hero.webp`],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
             },
             robots: {

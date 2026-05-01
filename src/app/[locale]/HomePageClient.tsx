@@ -77,7 +77,15 @@ interface HomePageClientProps {
 
 export default function HomePageClient({ latestArticles, moduleLinkMap, locale }: HomePageClientProps) {
   const t = useMessages() as any
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://far-far-west.wiki'
+  const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
+  const officialSiteUrl = 'https://fireshinegames.co.uk/featured/far-far-west/'
+  const steamStoreUrl = 'https://store.steampowered.com/app/3124540/Far_Far_West/'
+  const steamCommunityUrl = 'https://steamcommunity.com/app/3124540'
+  const discordUrl = 'https://discord.com/servers/far-far-west-1377223661685178460'
+  const redditUrl = 'https://www.reddit.com/r/FarFarWest/'
+  const xUrl = 'https://x.com/FarFarWestGame'
+  const youtubeUrl = 'https://www.youtube.com/watch?v=af-eJ3Aj97M'
 
   // Structured data
   const structuredData = {
@@ -87,14 +95,14 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         '@type': 'WebSite',
         '@id': `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
-        description: "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+        name: 'Far Far West',
+        description: 'Far Far West fan wiki with release updates, co-op guides, roadmap coverage, and community links.',
         image: {
           '@type': 'ImageObject',
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImageUrl,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: 'Far Far West - Chaotic Co-op Robot Cowboy Shooter',
         },
         potentialAction: {
           '@type': 'SearchAction',
@@ -105,10 +113,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       {
         '@type': 'Organization',
         '@id': `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: 'Far Far West',
+        alternateName: 'Far Far West Wiki',
         url: siteUrl,
-        description: "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+        description: 'Community-maintained Far Far West resource hub focused on gameplay guides and update tracking.',
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -117,33 +125,35 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         },
         image: {
           '@type': 'ImageObject',
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImageUrl,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: 'Far Far West - Early Access co-op shooter artwork',
         },
         sameAs: [
-          'https://store.steampowered.com/app/3495730/Lucid_Blocks/',
-          'https://discord.com/invite/lucidblocks',
-          'https://www.reddit.com/r/LucidBlocks/',
-          'https://www.youtube.com/@lucy_b_locks',
+          officialSiteUrl,
+          steamStoreUrl,
+          steamCommunityUrl,
+          discordUrl,
+          redditUrl,
+          xUrl,
+          youtubeUrl,
         ],
       },
       {
         '@type': 'VideoGame',
-        name: "Lucid Blocks",
+        name: 'Far Far West',
         gamePlatform: ['PC', 'Steam'],
         applicationCategory: 'Game',
-        genre: ['Survival', 'Sandbox', 'Adventure', 'Psychedelic'],
+        genre: ['Online Co-Op', 'FPS', 'Western', 'Extraction Shooter'],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 1,
+          maxValue: 4,
         },
         offers: {
           '@type': 'Offer',
-          priceCurrency: 'USD',
           availability: 'https://schema.org/InStock',
-          url: 'https://store.steampowered.com/app/3495730/Lucid_Blocks/',
+          url: steamStoreUrl,
         },
       },
     ],
@@ -226,17 +236,19 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <button
-                onClick={() => scrollToSection('beginner-guide')}
+              <a
+                href={officialSiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-lg transition-colors"
               >
                 <BookOpen className="w-5 h-5" />
                 {t.hero.getFreeCodesCTA}
-              </button>
+              </a>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href={steamStoreUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4
@@ -264,8 +276,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         <div className="scroll-reveal container mx-auto max-w-4xl">
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="af-eJ3Aj97M"
+              title="Far Far West | Early Access Launch Trailer"
               posterImage="/images/hero.webp"
             />
           </div>
@@ -832,11 +844,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 <h3 className="font-bold text-yellow-400 mb-2">Still having issues?</h3>
                 <p className="text-sm text-muted-foreground mb-3">Report bugs with your logs through the official channels:</p>
                 <div className="flex flex-wrap gap-3">
-                  <a href="https://discord.com/invite/lucidblocks" target="_blank" rel="noopener noreferrer"
+                  <a href={discordUrl} target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
                     <MessageCircle className="w-4 h-4" /> Discord <ExternalLink className="w-3 h-3" />
                   </a>
-                  <a href="https://store.steampowered.com/app/3495730/Lucid_Blocks/" target="_blank" rel="noopener noreferrer"
+                  <a href={steamCommunityUrl} target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
                     Steam Community <ExternalLink className="w-3 h-3" />
                   </a>
@@ -864,6 +876,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           description={t.cta.description}
           joinCommunity={t.cta.joinCommunity}
           joinGame={t.cta.joinGame}
+          communityUrl={discordUrl}
+          gameUrl={steamStoreUrl}
         />
       </Suspense>
 
@@ -888,7 +902,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href={discordUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -898,7 +912,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href={xUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -908,7 +922,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href={redditUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -918,7 +932,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href={youtubeUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

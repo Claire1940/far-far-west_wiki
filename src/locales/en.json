@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Chaotic Co-op Robot Cowboy Shooter",
+    "title": "Far Far West",
+    "description": "Team up in a 1-4 player co-op shooter set in a weird futuristic Wild West. Blast monsters, sling spells, complete bounty missions, upgrade gear, and survive together on Steam Early Access.",
+    "getFreeCodesCTA": "Visit Far Far West Official Site",
+    "playOnSteamCTA": "Play Far Far West on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "25,922",
+        "label": "Players Right Now"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "30,712",
+        "label": "All-Time Peak"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "9,636",
+        "label": "Steam Reviews"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "53,539",
+        "label": "Discord Members"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Ride into Far Far West?",
+    "description": "Join the Far Far West community, track new updates, and jump straight into Steam Early Access.",
+    "joinCommunity": "Join Far Far West Discord",
+    "joinGame": "Play Far Far West on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Far Far West",
+    "description": "Your fan-made resource hub for Far Far West guides, co-op tips, updates, and community links.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Official Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "Reddit Community",
+    "steamStore": "Official Trailer",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Far Far West Wiki. Unofficial fan-made site, not affiliated with Evil Raptor or Fireshine Games.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

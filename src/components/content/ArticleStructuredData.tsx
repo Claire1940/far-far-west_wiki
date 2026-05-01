@@ -13,11 +13,17 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://far-far-west.wiki'
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
 			: `${siteUrl}/${locale}/${contentType}/${slug}`
+	const listUrl = locale === 'en' ? `${siteUrl}/${contentType}` : `${siteUrl}/${locale}/${contentType}`
+	const articleImage = frontmatter.image
+		? frontmatter.image.startsWith('http://') || frontmatter.image.startsWith('https://')
+			? frontmatter.image
+			: `${siteUrl}${frontmatter.image.startsWith('/') ? frontmatter.image : `/${frontmatter.image}`}`
+		: `${siteUrl}/images/hero.webp`
 
 	const breadcrumbData = {
 		'@context': 'https://schema.org',
@@ -33,7 +39,7 @@ export function ArticleStructuredData({
 				'@type': 'ListItem',
 				position: 2,
 				name: contentType.charAt(0).toUpperCase() + contentType.slice(1),
-				item: `${siteUrl}/${contentType}`,
+				item: listUrl,
 			},
 			{
 				'@type': 'ListItem',
@@ -49,16 +55,16 @@ export function ArticleStructuredData({
 		'@type': 'Article',
 		headline: frontmatter.title,
 		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		image: articleImage,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: 'Far Far West Wiki Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: 'Far Far West',
 			logo: {
 				'@type': 'ImageObject',
 				url: `${siteUrl}/images/hero.webp`,

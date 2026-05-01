@@ -2,8 +2,6 @@ import { MetadataRoute } from 'next'
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing, type Locale } from '@/i18n/routing'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
 	'guides': 0.9,
@@ -30,11 +28,12 @@ const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'>
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	const sitemap: MetadataRoute.Sitemap = []
+	const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://far-far-west.wiki').replace(/\/+$/, '')
 
 	// 1. 首页（所有语言版本）
 	for (const locale of routing.locales) {
 		sitemap.push({
-			url: locale === 'en' ? BASE_URL : `${BASE_URL}/${locale}`,
+			url: locale === 'en' ? baseUrl : `${baseUrl}/${locale}`,
 			lastModified: new Date(),
 			changeFrequency: 'daily',
 			priority: 1.0,
@@ -52,8 +51,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 				if (articles.length > 1) {
 					const listUrl =
 						locale === 'en'
-							? `${BASE_URL}/${contentType}`
-							: `${BASE_URL}/${locale}/${contentType}`
+							? `${baseUrl}/${contentType}`
+							: `${baseUrl}/${locale}/${contentType}`
 					const latestArticle = articles[0]
 					const latestDate = latestArticle.frontmatter.lastModified || latestArticle.frontmatter.date
 
@@ -68,8 +67,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 				for (const article of articles) {
 					const articleUrl =
 						locale === 'en'
-							? `${BASE_URL}/${contentType}/${article.slug}`
-							: `${BASE_URL}/${locale}/${contentType}/${article.slug}`
+							? `${baseUrl}/${contentType}/${article.slug}`
+							: `${baseUrl}/${locale}/${contentType}/${article.slug}`
 					const articleDate = article.frontmatter.lastModified || article.frontmatter.date
 
 					sitemap.push({
