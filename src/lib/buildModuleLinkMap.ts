@@ -26,34 +26,34 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
   lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
   lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  lucidBlocksSteamDeckAndController: { field: 'specs', nameKey: 'spec' },
+  lucidBlocksSettingsAndAccessibility: { field: 'items', nameKey: 'label' },
+  lucidBlocksUpdatesAndPatchNotes: { field: 'items', nameKey: 'label' },
+  lucidBlocksCrashFixAndTroubleshooting: { field: 'items', nameKey: 'label' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lucidBlocksBeginnerGuide: ['release date', 'steam launch', 'early access', 'april 2026', 'platform status'],
+  lucidBlocksApotheosisCrafting: ['early access scope', 'roadmap', 'content updates', 'community feedback', 'version 1.0'],
+  lucidBlocksToolsAndWeapons: ['fps gunplay', 'spellcasting', 'bounty contracts', 'co-op pve', 'extraction runs'],
+  lucidBlocksStorageAndInventory: ['multiplayer', 'co-op', 'four players', 'team roles', 'squad coordination'],
+  lucidBlocksQualiaAndBaseBuilding: ['beginner guide', 'town loadout', 'objective runs', 'upgrade loop', 'perk progression'],
+  lucidBlocksWorldRegions: ['weapons guide', 'loadout planning', 'crowd clear', 'boss damage', 'joker synergy'],
+  lucidBlocksCreaturesAndEnemies: ['spells', 'element combos', 'chain reactions', 'crowd control', 'boss phases'],
+  lucidBlocksMobilityGear: ['builds', 'progression', 'damage scaling', 'reload speed', 'lifesteal', 'perk choices'],
+  lucidBlocksFarmingAndGrowth: ['missions', 'bounties', 'contracts', 'side objectives', 'extraction'],
+  lucidBlocksBestEarlyUnlocks: ['bosses', 'enemy waves', 'weakpoints', 'combat roles', 'survival'],
+  lucidBlocksAchievementTracker: ['maps', 'secrets', 'area 41', 'bell puzzle', 'medallion challenge', 'far far north'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['price', 'steam discount', 'early access pricing', 'regional pricing', '1.0 increase'],
+  lucidBlocksSteamDeckAndController: ['system requirements', 'directx 12', 'ssd', 'windows pc', '10 gb storage'],
+  lucidBlocksSettingsAndAccessibility: ['steam deck verified', 'steamos', 'gamepad support', 'internet connection'],
+  lucidBlocksUpdatesAndPatchNotes: ['steam reviews', 'overwhelmingly positive', 'player count', 'launch week', 'concurrent players'],
+  lucidBlocksCrashFixAndTroubleshooting: ['roadmap', 'weekly challenges', 'mission modifiers', 'hotfixes', 'new content'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['far', 'west', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Far Far West")
+  const strippedQuery = normalizedQuery.replace(/far far west\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/far far west\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

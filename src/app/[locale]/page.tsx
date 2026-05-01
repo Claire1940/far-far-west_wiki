@@ -1,5 +1,6 @@
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
+import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
@@ -94,8 +95,7 @@ export default async function HomePage({ params }: PageProps) {
 
   // 服务器端获取最新文章数据
   const latestArticles = await getLatestArticles(locale as Language, 30)
-  // 禁用模块内部链接，首页仅保留外部链接与锚点滚动导航
-  const moduleLinkMap = {}
+  const moduleLinkMap = await buildModuleLinkMap(locale as Language)
 
   return (
     <>
