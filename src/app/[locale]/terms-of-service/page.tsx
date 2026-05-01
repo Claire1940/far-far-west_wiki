@@ -1,7 +1,7 @@
-import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
+import { Link } from '@/i18n/navigation'
 
 interface Props {
   params: Promise<{ locale: string }>

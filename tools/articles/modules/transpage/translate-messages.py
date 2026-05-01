@@ -135,6 +135,31 @@ def clean_json_response(text: str) -> str:
     text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
     return text.strip()
 
+
+def build_fallback_chunk(template, existing_value):
+    """构建 chunk 级兜底数据。
+    优先复用 existing 的同结构翻译；缺失部分回退到英文 template。
+    """
+    if isinstance(template, str):
+        return existing_value if isinstance(existing_value, str) and existing_value.strip() else template
+
+    if isinstance(template, dict):
+        result = {}
+        existing_dict = existing_value if isinstance(existing_value, dict) else {}
+        for key, value in template.items():
+            result[key] = build_fallback_chunk(value, existing_dict.get(key))
+        return result
+
+    if isinstance(template, list):
+        existing_list = existing_value if isinstance(existing_value, list) else []
+        result = []
+        for idx, item in enumerate(template):
+            existing_item = existing_list[idx] if idx < len(existing_list) else None
+            result.append(build_fallback_chunk(item, existing_item))
+        return result
+
+    return existing_value if type(existing_value) is type(template) else template
+
 # ─── chunk 拆分 ───────────────────────────────────────────────────────────────
 
 
@@ -205,7 +230,14 @@ def deep_merge(base: dict, update: dict) -> dict:
 # ─── 翻译单个语言 ─────────────────────────────────────────────────────────────
 
 
-def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, config: dict) -> tuple:
+def translate_chunk_task(
+    idx: int,
+    total: int,
+    chunk: dict,
+    fallback_chunk: dict,
+    lang_name: str,
+    config: dict,
+) -> tuple:
     """单个 chunk 的翻译任务，返回 (idx, chunk_key_order, translated_dict)"""
     keys_preview = ', '.join(list(chunk.keys())[:3])
     suffix = '...' if len(chunk) > 3 else ''
@@ -218,14 +250,18 @@ def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, conf
         cleaned = clean_json_response(result)
         try:
             parsed = json.loads(cleaned)
+            if isinstance(parsed, dict):
+                parsed = deep_merge(fallback_chunk, parsed)
+            else:
+                parsed = fallback_chunk
             print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✓")
             return (idx, list(chunk.keys()), parsed)
         except json.JSONDecodeError as e:
-            print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ JSON解析失败({e})，英文兜底")
-            return (idx, list(chunk.keys()), chunk)
+            print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ JSON解析失败({e})，保留现有翻译兜底")
+            return (idx, list(chunk.keys()), fallback_chunk)
     else:
-        print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ API失败，英文兜底")
-        return (idx, list(chunk.keys()), chunk)
+        print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ API失败，保留现有翻译兜底")
+        return (idx, list(chunk.keys()), fallback_chunk)
 
 
 def translate_language(
@@ -272,7 +308,15 @@ def translate_language(
     results = [None] * total
     with ThreadPoolExecutor(max_workers=concurrency) as executor:
         futures = {
-            executor.submit(translate_chunk_task, idx + 1, total, chunk, lang_name, config): idx
+            executor.submit(
+                translate_chunk_task,
+                idx + 1,
+                total,
+                chunk,
+                build_fallback_chunk(chunk, existing),
+                lang_name,
+                config,
+            ): idx
             for idx, chunk in enumerate(chunks)
         }
         for future in as_completed(futures):
