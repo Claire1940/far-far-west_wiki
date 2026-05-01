@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Far Far West Wiki - Release Date, Co-op Guide & Roadmap",
+      "description": "Far Far West Wiki covers release updates, Early Access details, co-op guides, weapons, spells, builds, bosses, maps, and roadmap news for the Steam shooter.",
+      "keywords": "Far Far West, Far Far West wiki, release date, Early Access, co-op, weapons, spells, roadmap, Steam",
+      "ogTitle": "Far Far West Wiki - Release Date, Co-op Guide & Roadmap",
+      "ogDescription": "Far Far West Wiki covers release updates, Early Access details, co-op guides, weapons, spells, builds, bosses, maps, and roadmap news for the Steam shooter.",
+      "twitterTitle": "Far Far West Wiki - Release Date, Co-op Guide & Roadmap",
+      "twitterDescription": "Far Far West Wiki covers release updates, Early Access details, co-op guides, weapons, spells, builds, bosses, maps, and roadmap news."
     }
   },
   "nav": {
@@ -19,914 +19,1067 @@
     "weapons": "Weapons"
   },
   "common": {
-    "home": "Inicio",
-    "more": "Más",
-    "playNow": "Juega en Steam",
-    "switchLanguage": "Cambiar idioma",
-    "switchTheme": "Cambiar tema",
-    "lightMode": "Modo claro",
-    "darkMode": "Modo oscuro",
-    "notFound": "Página no encontrada",
-    "notFoundDescription": "La página que buscas no existe.",
-    "backToHome": "Volver al inicio",
-    "relatedArticles": "Artículos relacionados",
-    "readMore": "Leer más",
-    "articlesComingSoon": "Artículos próximamente"
+    "home": "Home",
+    "more": "More",
+    "playNow": "Play on Steam",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More",
+    "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Chaotic Co-op Robot Cowboy Shooter",
+    "title": "Far Far West",
+    "description": "Team up in a 1-4 player co-op shooter set in a weird futuristic Wild West. Blast monsters, sling spells, complete bounty missions, upgrade gear, and survive together on Steam Early Access.",
+    "getFreeCodesCTA": "Visit Far Far West Official Site",
+    "playOnSteamCTA": "Play Far Far West on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "25,922",
+        "label": "Players Right Now"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "30,712",
+        "label": "All-Time Peak"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "9,636",
+        "label": "Steam Reviews"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "53,539",
+        "label": "Discord Members"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Far Far West Gameplay Overview",
+    "description": "Track Far Far West co-op gameplay, bounty loops, spell-and-gun combat, progression systems, and major update highlights on Steam Early Access."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Far Far West",
+    "titleHighlight": "Module Navigation",
+    "subtitle": "Jump to every Far Far West homepage module section",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "Far Far West Release Date",
+        "description": "Launch date, platform, studio, and availability status"
       },
       {
         "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "title": "Far Far West Early Access",
+        "description": "Current scope, 1.0 direction, and feedback cycle"
       },
       {
         "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
+        "title": "Far Far West Gameplay Overview",
+        "description": "Core loop, combat identity, and extraction pressure"
       },
       {
         "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
+        "title": "Far Far West Multiplayer Co-op",
+        "description": "1-4 player squad play, solo options, and team roles"
       },
       {
         "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
+        "title": "Far Far West Beginner Guide",
+        "description": "Step-by-step contracts, movement, gold economy, and early survival mistakes"
       },
       {
         "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
+        "title": "Far Far West Weapons Guide",
+        "description": "Primary and secondary weapon roles, upgrades, and beginner-friendly picks"
       },
       {
         "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
+        "title": "Far Far West Spells and Combos",
+        "description": "Spell families, combo chains, elemental reactions, and team timing"
       },
       {
         "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
+        "title": "Far Far West Builds and Progression",
+        "description": "First investments, build styles, jokers, and long-term progression goals"
       },
       {
         "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "title": "Far Far West Missions and Bounties",
+        "description": "Contract types, objective flow, and payout routes"
       },
       {
         "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
+        "title": "Far Far West Bosses and Enemies",
+        "description": "Major threats, counters, and encounter priorities"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "title": "Far Far West Maps and Secrets",
+        "description": "Regions, hidden routes, and collectible hotspots"
       },
       {
         "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "title": "Far Far West Price",
+        "description": "Current Steam pricing and launch discount context"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
+        "title": "Far Far West System Requirements",
+        "description": "Minimum vs recommended PC specs, DirectX 12, and SSD guidance"
       },
       {
         "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "title": "Far Far West Steam Deck",
+        "description": "Verified status, controller behavior, SteamOS notes, and cloud saves"
       },
       {
         "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "title": "Far Far West Reviews and Player Count",
+        "description": "Review sentiment, live players, all-time peak, and demo momentum"
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Far Far West Roadmap and Updates",
+        "description": "Roadmap scope, hotfix changes, balance updates, and known issues"
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
+      "title": "Far Far West Release Date",
       "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+      "intro": "Far Far West entered Steam Early Access on April 28, 2026. This module summarizes launch timing, platform status, studio ownership, and immediate availability details.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Far Far West Launch Date",
+          "description": "Far Far West launched into Steam Early Access on April 28, 2026."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Far Far West Current Status",
+          "description": "Far Far West is out now and playable in Early Access on PC via Steam."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Far Far West Developer and Publisher",
+          "description": "Far Far West is developed by Evil Raptor and published by Fireshine Games."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Far Far West Launch Trailer",
+          "description": "The official Early Access launch trailer introduces the robot cowboy co-op fantasy and mission loop."
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Far Far West currently lists PC via Steam as the active platform.",
+        "Far Far West is positioned as an Early Access title rather than a full 1.0 launch.",
+        "Far Far West Steam tags emphasize Online Co-Op, PvE, FPS, Western, and Extraction Shooter.",
+        "Far Far West launch data is the best starting point before comparing guides and builds."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
+      "title": "Far Far West Early Access",
       "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
+      "intro": "Far Far West is live in Early Access with a full playable core loop while the developers expand content, systems, and replayability with community feedback.",
       "cards": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "Far Far West Early Access Scope",
+          "description": "Far Far West already includes bounty missions, spell-and-gun combat, progression, bosses, and online co-op sessions."
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "Far Far West Early Access Timeline",
+          "description": "Far Far West currently plans around a 12-month Early Access period before the full release target."
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "name": "Far Far West Community Feedback Loop",
+          "description": "Far Far West uses Discord and Steam discussions for bug reports, balancing input, and feature priorities."
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "name": "Far Far West 1.0 Direction",
+          "description": "Far Far West plans to expand enemies, weapons, cosmetics, progression depth, and game modes on the path to 1.0."
         }
       ],
       "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+        "Far Far West Core Loop Playable Now",
+        "Far Far West 12-Month EA Plan",
+        "Far Far West Full Release Expansion Path"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
+      "title": "Far Far West Gameplay Overview",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+      "intro": "Far Far West blends FPS gunplay, spellcasting, bounty contracts, and extraction-style mission pressure into a fast co-op PvE loop.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "name": "Far Far West Core Loop",
+          "type": "Gameplay Flow",
+          "description": "Form a crew, accept a contract, clear objectives, survive enemy waves, defeat boss threats, and extract with rewards."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "name": "Far Far West Combat Identity",
+          "type": "Combat Style",
+          "description": "Far Far West mixes six-shooter gunplay with elemental spell casting, allowing constant weapon-spell swaps in fights."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "name": "Far Far West Horde Pressure",
+          "type": "PvE Intensity",
+          "description": "Far Far West mission zones frequently escalate into dense horde encounters where positioning and cooldown timing matter."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "name": "Far Far West Extraction Feel",
+          "type": "Risk vs Reward",
+          "description": "Far Far West contracts reward teams that can complete objectives and leave alive instead of overextending."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
+          "name": "Far Far West Setting Flavor",
+          "type": "World Theme",
+          "description": "Far Far West combines dusty western towns, cursed zones, robot cowboys, and supernatural enemies."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "name": "Far Far West Build Flexibility",
+          "type": "Progression",
+          "description": "Far Far West lets players tune perks, spell focus, and weapon upgrades for solo consistency or co-op specialization."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
+      "title": "Far Far West Multiplayer Co-op",
       "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
+      "intro": "Far Far West supports solo and online co-op up to four players, with stronger rewards and safer clears when squads coordinate roles and cooldowns.",
       "solutions": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "name": "Far Far West Team Size",
+          "role": "Party Rules",
+          "description": "Far Far West supports 1-4 players, so missions are viable solo and scale into full squad runs."
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "name": "Far Far West Co-op Mode",
+          "role": "Match Type",
+          "description": "Far Far West is built around online co-op PvE contracts with shared objectives and extraction pressure."
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "name": "Far Far West Combat Roles",
+          "role": "Team Synergy",
+          "description": "Far Far West squads perform better when players split crowd control, burst damage, sustain, and revive coverage."
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "name": "Far Far West Squad Discovery",
+          "role": "Community",
+          "description": "Far Far West players can form squads through the official Discord and Steam Community channels."
         }
       ],
       "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+        "Far Far West solo play is viable, but co-op smooths boss fights and rescue windows.",
+        "Far Far West squads should assign one player to objective tracking and extraction timing.",
+        "Far Far West teams gain consistency by stacking complementary spell loadouts.",
+        "Far Far West co-op pace improves when players call cooldowns before major pushes."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
+      "title": "Far Far West Beginner Guide",
       "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
+      "intro": "Far Far West is built around short co-op bounty runs where robot cowboys enter a mission, complete marked objectives, fight waves and bosses, collect rewards, and return to town to upgrade guns, spells, abilities, and perks. New players should focus less on perfect aim and more on movement, team roles, spell timing, and steady progression.",
       "cards": [
         {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
+          "name": "Far Far West Beginner Step 1: Start in Town Loadout",
+          "description": "Before launching a run, use the town hub to prepare your gun loadout, spell choices, and upgrades. A safe beginner setup is one weapon or spell plan for clearing small enemies and one option for elites or bosses."
         },
         {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
+          "name": "Far Far West Beginner Step 2: Pick a Manageable Bounty",
+          "description": "Runs are built around mission objectives and boss encounters. Start with lower-pressure contracts while learning map flow, enemy types, spell cooldowns, and extraction timing."
         },
         {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
+          "name": "Far Far West Beginner Step 3: Move Before You Shoot",
+          "description": "Use Shift to dash and Space to jump. Combining dash and jump gives extra height or distance, while repeated dash-jump chains help you dodge incoming damage during waves and boss fights."
         },
         {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
+          "name": "Far Far West Beginner Step 4: Follow Objective and Collect",
+          "description": "Core mission tasks are marked on the map, while optional side objectives, chests, graves, secrets, and mining outcrops reward exploration. Detour when the team is healthy, then return to the main objective before the run gets chaotic."
+        },
+        {
+          "name": "Far Far West Beginner Step 5: Handle Gold with the Right Tool",
+          "description": "Gold and mining outcrops feed your upgrade economy. Mining gives better cash value when the area is safe, while Fireball can break gold veins quickly when you are under pressure or moving fast."
+        },
+        {
+          "name": "Far Far West Beginner Step 6: Use Spells as Horde Tools",
+          "description": "Spells are strong against groups and become much better when combined. Early examples include Mino into Strikes for wide lightning coverage, Thrower into Fireball for explosions, and Voodoo effects for healing candles."
+        },
+        {
+          "name": "Far Far West Beginner Step 7: Upgrade After Each Run",
+          "description": "Back in town, spend rewards on gun damage, spell power, ability upgrades, and perks that support your role. Damage-first upgrades make most weapons feel stronger, then reload speed, fire rate, ammo efficiency, lifesteal, or weakpoint bonuses can fix specific weaknesses."
+        },
+        {
+          "name": "Far Far West Beginner Step 8: Avoid Common Early Mistakes",
+          "description": "The fastest way to lose a run is standing still, ignoring spell combos, skipping easy upgrade cash, taking a boss-only weapon into hordes, or splitting too far from teammates. Play close enough to revive, share objective progress, and let each player cover a different combat role."
         }
       ],
       "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
+        "Far Far West cover both crowd control and boss damage in your loadout.",
+        "Far Far West read objective demands before committing your route.",
+        "Far Far West keep moving with dash-jump chains during waves and bosses.",
+        "Far Far West spend rewards after every clear to stay ahead of scaling pressure."
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
+      "title": "Far Far West Weapons Guide",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
+      "intro": "Every weapon can work with enough upgrades and Joker support, but a strong loadout should either split responsibilities between crowd clear and boss damage or handle both jobs decently. Beginners should start with reliable weapons, then specialize once they know which enemies and bosses give them trouble.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
+          "name": "Far Far West Quad Cylinder",
+          "type": "Primary | Reliable starter gun",
+          "description": "Best for General clearing, weakpoint hits, learning objectives. Upgrade priority: Damage first, then weakpoint support and handling. Early recommendation: Keep it while learning the game loop because it performs well without forcing a narrow playstyle."
         },
         {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
+          "name": "Far Far West Shotgun",
+          "type": "Primary | Close-range comfort weapon",
+          "description": "Best for Trash waves, elites, chaotic co-op fights, interrupting Deadeye-style threats. Upgrade priority: Damage and reload speed. Early recommendation: One of the easiest early picks because it clears fast, requires less precision, and stays useful against most enemies."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
+          "name": "Far Far West Long Ranger",
+          "type": "Primary | Precision boss killer",
+          "description": "Best for Elites, bosses, weakpoint damage, high-value targets. Upgrade priority: Damage, fire rate, weakpoint-focused Jokers. Early recommendation: Pair it with a crowd-clearing secondary or spell setup so small enemies do not overwhelm you."
         },
         {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
+          "name": "Far Far West Minigun",
+          "type": "Primary | Sustained DPS weapon",
+          "description": "Best for Large waves, bosses, long fights after investment. Upgrade priority: Ammo efficiency, damage, reload support. Early recommendation: Strong when supported by ammo-focused upgrades and Jokers; keep moving because you can still dash and jump while firing."
+        },
+        {
+          "name": "Far Far West Leveredge",
+          "type": "Primary | High single-target damage rifle",
+          "description": "Best for Elites and bosses. Upgrade priority: Damage, reload speed, fire rate, weakpoint value. Early recommendation: Use it as a boss-focused primary and cover trash clear through spells or a secondary."
+        },
+        {
+          "name": "Far Far West Revolver",
+          "type": "Secondary | Consistent backup sidearm",
+          "description": "Best for Weakpoint damage and reliable single-target support. Upgrade priority: Damage, Electric element for area value, lifesteal after investment. Early recommendation: A dependable secondary for players who want a simple backup weapon with clean aiming."
+        },
+        {
+          "name": "Far Far West Bow",
+          "type": "Secondary | Element-combo weapon",
+          "description": "Best for Spell synergy, elemental puddles, crowd interactions. Upgrade priority: Damage and element synergy. Early recommendation: Use it with spell combos rather than treating it like a normal gun."
+        },
+        {
+          "name": "Far Far West Dual Revolvers",
+          "type": "Secondary | Trash-clear sidearm",
+          "description": "Best for Small enemies, fast hits, lifesteal value. Upgrade priority: Lifesteal, reload support, damage. Early recommendation: Great for clearing weaker enemies, but pair it with a primary that can kill bosses."
+        },
+        {
+          "name": "Far Far West Boomerang",
+          "type": "Secondary | Infinite-ammo sustain tool",
+          "description": "Best for Repeated damage ticks, trash clear, lifesteal setups. Upgrade priority: Lifesteal, damage, Acid element for control. Early recommendation: Excellent for sustain and repeated hits; avoid relying on it against shielded enemies that can deflect it."
+        },
+        {
+          "name": "Far Far West Sheriff Star",
+          "type": "Secondary | High-skill retrieval weapon",
+          "description": "Best for Close-range pressure and aim-focused play. Upgrade priority: Damage, recovery rhythm, lifesteal. Early recommendation: Best for players who can fight close, land throws, and retrieve missed stars without taking too much damage."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
+      "title": "Far Far West Spells and Combos",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
+      "intro": "Spellcasting is the main layer that separates Far Far West from a standard co-op shooter. Spells can be used alone, but their strongest value comes from chaining elements, placing setup spells first, and letting teammates trigger follow-up effects during waves and boss fights.",
       "creatures": [
         {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
+          "name": "Far Far West Acid Spell Family",
+          "role": "Acid Combo",
+          "description": "Core effects: Acid puddles, Geyser, Bubble, Acid Rain. Combo examples: Acid plus Fire or Electric triggers elemental explosions. Geyser on a lightning puddle creates three more geysers. Bubble on a fire puddle creates a travelling fire tornado, while Bubble on an electric puddle splits into three bubbles. Acid Rain with Strikes becomes a thunderstorm that hits random enemies. Best use: Area denial, combo setup, group damage, and forcing enemies through damaging zones. Team tip: Place Acid first, then let a teammate follow with Fire or Electric to turn the puddle into a larger damage event."
         },
         {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
+          "name": "Far Far West Cactus Spell Family",
+          "role": "Cactus Combo",
+          "description": "Core effects: Mino, Decoyo, Pistolero, Wallo-style cactus setups. Combo examples: Mino can be imbued with another element. Decoyo can be hit with elemental damage to explode with that element. Pistolero can be imbued for extra elemental damage. Strikes on Mino, Pistolero, Wallo, or Decoyo creates six thunder strikes in multiple directions. Best use: Pre-fight setup, boss area control, and team-triggered burst damage. Team tip: Drop cactus spells before the wave reaches the team, then call out which element should trigger them."
         },
         {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
+          "name": "Far Far West Electric Spell Family",
+          "role": "Electric Combo",
+          "description": "Core effects: Strikes, Wisp, Portal, Boing, electric puddles. Combo examples: Electric damage on Mino arcs bolts to nearby enemies. Strikes on Acid Rain creates a thunderstorm. Portal duplicates spell cards thrown through it, and Portal into Portal creates an electric explosion. Boing with Thunderstrike gives extra movement speed. Best use: Chain damage, movement boosts, spell duplication, and wide-area wave control. Team tip: Use Electric as the follow-up element when Acid or cactus setups are already active."
         },
         {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
+          "name": "Far Far West Fire Spell Family",
+          "role": "Fire Combo",
+          "description": "Core effects: Fireball, Firebeam, fire puddles, burn effects. Combo examples: Fireball instantly breaks gold veins. Firebeam on Acid puddles or geysers creates a travelling fire tornado. Fireball into Thrower repeatedly explodes the target through acid ticks. Fireball into Mino increases damage and burns the enemy. Best use: Burst damage, fast gold breaks, burn pressure, and explosive follow-ups. Team tip: Use Fire when enemies are grouped or when the team needs to turn an Acid setup into immediate damage."
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
+          "name": "Far Far West Voodoo Spell Family",
+          "role": "Voodoo Combo",
+          "description": "Core effects: Drain, Ritual, healing candles, ally conversion effects. Combo examples: Voodoo spells cast on allies, enemies, or near elemental puddles spawn floating candles that heal for 3 HP when picked up. Drain on Mino or Decoyo makes affected enemies fight for you after the explosion. Ritual on Pistolero, Wallo, or Decoyo adds another healing area. Best use: Team sustain, recovery during long fights, and converting enemies into temporary allies. Team tip: Use Voodoo when the team is low or holding a position during a boss or objective phase."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
+      "title": "Far Far West Builds and Progression",
       "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+      "intro": "Progression in Far Far West is about improving guns, spells, abilities, perks, and character customization between bounty runs. Strong builds usually start with damage, then add the missing piece: reload speed, ammo efficiency, movement, lifesteal, spell damage, healing, or weakpoint power.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "name": "Far Far West Damage First Core",
+          "type": "Best First Investments | Weapon damage and faster mission clears",
+          "description": "Investments: Upgrade damage before tuning reload, fire rate, ammo, or niche bonuses. Works with: Every primary and most secondary weapons. Why use it: More damage makes early weapons feel stronger and supports weapon XP through higher damage output."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "name": "Far Far West Movement Survival Core",
+          "type": "Best First Investments | Dash-jump chains, bunnyhopping, and survival spacing",
+          "description": "Investments: Take movement bonuses through upgrades and Jokers when available. Works with: Solo players, boss fights, high-pressure co-op runs. Why use it: Better movement keeps you alive long enough for guns, spells, and teammates to do their jobs."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "name": "Far Far West Spell Usage Core",
+          "type": "Best First Investments | Spell XP, cooldown rhythm, and combo uptime",
+          "description": "Investments: Use spells frequently, practice combinations, and invest in spell damage or cooldown-friendly upgrades. Works with: Mino, Strikes, Fireball, Thrower, Drain, Acid, Cactus, Electric, Fire, and Voodoo setups. Why use it: Spell XP rewards active usage, and combos solve horde problems that guns alone handle more slowly."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "name": "Far Far West Headshot Boss Hunter",
+          "type": "Strong Build Styles | Weakpoint damage and elite control",
+          "description": "Investments: Long Ranger or Leveredge with damage, fire rate, Glass Cannon, Consumer, and Weakpoint-style Jokers. Works with: Teams that already have crowd clear covered. Why use it: High weakpoint damage deletes elites and bosses when the player can aim under pressure."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "name": "Far Far West Shotgun Comfort Clear",
+          "type": "Strong Build Styles | Close-range crowd clearing",
+          "description": "Investments: Shotgun damage, reload speed, and survivability support. Works with: Solo learning, chaotic public co-op, wave-heavy missions. Why use it: The Shotgun handles trash waves quickly and stays easy to use when enemies are close."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "name": "Far Far West Minigun Ammo DPS",
+          "type": "Strong Build Styles | Sustained fire and long fights",
+          "description": "Investments: Minigun damage, ammo efficiency, reload support, and ammo-focused Jokers. Works with: Boss phases, big waves, teams that can protect the gunner. Why use it: With the right ammo economy, the Minigun becomes a constant damage engine."
+        },
+        {
+          "name": "Far Far West Spell Combo Caster",
+          "type": "Strong Build Styles | Element reactions and team-triggered damage",
+          "description": "Investments: Spell damage, cooldown rhythm, Mino plus Strikes, Acid plus Fire or Electric, and Voodoo support tools. Works with: Co-op teams that communicate spell order. Why use it: Combo spells create larger effects than single casts and let teammates multiply each other's value."
+        },
+        {
+          "name": "Far Far West Healing Support",
+          "type": "Strong Build Styles | Sustain, lifesteal, and team recovery",
+          "description": "Investments: Voodoo spells, Drain, Ritual, Boomerang or Dual Revolvers lifesteal, and survival Jokers. Works with: Long objectives, boss fights, and teams taking repeated chip damage. Why use it: Healing candles, lifesteal ticks, and support spells help the team stay in the run instead of burning revives."
+        },
+        {
+          "name": "Far Far West Balanced Two-Role Loadout",
+          "type": "Long-Term Progression Goals | One tool for trash, one tool for bosses",
+          "description": "Investments: Pair Shotgun, Dual Revolvers, Bow, or Boomerang for clearing with Long Ranger, Leveredge, Revolver, or Minigun for stronger single-target damage. Works with: Most solo and co-op runs. Why use it: A loadout that covers both enemy waves and boss damage is more stable than a one-dimensional build."
+        },
+        {
+          "name": "Far Far West Secrets and Quest Progression",
+          "type": "Long-Term Progression Goals | Collectibles, graves, bells, medallions, and questlines",
+          "description": "Investments: Route exploration into runs and finish one-instance secrets before leaving the mission. Works with: Players who want map completion and long-term objectives. Why use it: Some secrets must be completed in one mission instance, while broader collectibles and quest progress can carry across missions."
+        },
+        {
+          "name": "Far Far West Cosmetic Cowboy",
+          "type": "Long-Term Progression Goals | Robot cowboy and steed customization",
+          "description": "Investments: Unlock skins and cosmetics after your core combat upgrades are stable. Works with: Players who want long-term personalization. Why use it: Cosmetic progression gives players a reason to keep refining runs after core combat builds are already comfortable."
         }
       ],
       "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
+        "Far Far West Build Tier: Best First Investments",
+        "Far Far West Build Tier: Strong Build Styles",
+        "Far Far West Build Tier: Long-Term Progression Goals",
+        "Far Far West Progression Focus: Damage First, Then Role Support"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
+      "title": "Far Far West Missions and Bounties",
       "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
+      "intro": "Far Far West is built around short co-op bounty runs where robot cowboys gear up in town, choose a contract, drop into a map, complete objectives, fight enemies and bosses, then return with loot. Runs can include main objectives, optional side activities, treasure, mining outcrops, boss encounters, and extraction decisions.",
       "sections": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "name": "Far Far West Town Sheriff Contracts",
+          "summary": "The main run starts in town, where players choose a bounty contract before deploying.",
+          "details": [
+            "Far Far West contracts send solo players or 1-4 player co-op crews into the weird west to hunt dangerous targets.",
+            "The Far Far West Town Sheriff contract setup frames each run around a bounty objective and a final payout.",
+            "Before deploying in Far Far West, players can prepare weapons, spells, character upgrades, and gear in the hub town."
+          ]
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "name": "Far Far West Main Objective Flow",
+          "summary": "Each run combines map objectives with a boss encounter that closes out the mission.",
+          "details": [
+            "Far Far West mission tasks are marked on the map after deployment.",
+            "Far Far West objective-and-boss pairings can include firing an artillery cannon before fighting an evil locomotive.",
+            "Another Far Far West documented objective example involves firing a nuclear missile as part of a bounty scenario."
+          ]
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "name": "Far Far West Side Missions and Optional Objectives",
+          "summary": "Players can detour from the main route to search for extra rewards before pushing toward the boss.",
+          "details": [
+            "Far Far West optional side objectives can appear while traveling between core mission tasks.",
+            "Far Far West treasure chests and mining outcrops can provide upgrade currency for town progression.",
+            "Far Far West secret missions and collectables are best routed before the boss phase because exploration becomes riskier once extraction pressure begins."
+          ]
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "name": "Far Far West Rewards and Upgrade Currency",
+          "summary": "Successful contracts feed back into permanent preparation and build improvement.",
+          "details": [
+            "Far Far West loot from contracts can be spent on arsenal upgrades, gear, fresh abilities, and cosmetic unlocks.",
+            "Far Far West official descriptions highlight upgrades for guns, spells, abilities, perks, robot cowboy skins, and steed skins.",
+            "Far Far West run design encourages players to decide whether to chase extra objectives for better rewards or return safely."
+          ]
+        },
+        {
+          "name": "Far Far West Boss, Bounty, and Extraction",
+          "summary": "The end of a run usually pushes the crew toward a major fight and a getaway.",
+          "details": [
+            "Far Far West runs can end with powerful boss encounters, including large supernatural or mechanical threats.",
+            "After the target is handled in Far Far West, the priority becomes getting paid and getting out alive.",
+            "Playing too greedily in Far Far West after the boss can make exploration harder because enemy pressure and extraction timing become more dangerous."
+          ]
         }
       ],
       "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
+        "Far Far West Mission Flow: Contract Setup in Town",
+        "Far Far West Mission Flow: Objective Route and Side Tasks",
+        "Far Far West Mission Flow: Boss Contract Finale",
+        "Far Far West Mission Flow: Extraction and Payout Decision"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
+      "title": "Far Far West Bosses and Enemies",
       "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
+      "intro": "Combat in Far Far West mixes FPS gunplay, spellcasting, mobility, and co-op positioning. Players face regular enemy waves while moving between objectives, then close many runs with a larger bounty target or boss-style encounter.",
       "priorities": [
         {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "name": "Far Far West Vicious Skeletons",
+          "type": "Common Enemy",
+          "role": "Swarm pressure",
+          "description": "Skeletons are one of the most visible enemy groups in Far Far West. They pressure players during objective routes and force constant movement, reload discipline, and spell timing."
         },
         {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "name": "Far Far West Hostile Robot Bandits",
+          "type": "Common Enemy",
+          "role": "Gunfight pressure",
+          "description": "Robot bandits appear as hostile ranged threats in Far Far West. They fit the core shooter rhythm: aim quickly, keep moving, and avoid being surrounded while objectives are active."
         },
         {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
+          "name": "Far Far West Undead Nightmares",
+          "type": "Supernatural Enemy Group",
+          "role": "Theme-defining threat",
+          "description": "Far Far West launch material frames the enemy roster around undead nightmares, giving the game its mix of western bounty hunting and supernatural chaos."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
+          "name": "Far Far West Giant Vultures",
+          "type": "Large Enemy",
+          "role": "High-visibility threat",
+          "description": "Giant vultures are named in Far Far West launch coverage as dangerous enemy types players may face, making encounters feel less predictable than standard bandit fights."
         },
         {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
+          "name": "Far Far West Evil Locomotive",
+          "type": "Boss Encounter",
+          "role": "Run-ending target",
+          "description": "Far Far West mission coverage describes an objective sequence before a shootout with an evil locomotive, making this train-style boss one of the clearest documented major encounters."
         },
         {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "name": "Far Far West Ghost Trains",
+          "type": "Supernatural Boss Threat",
+          "role": "Major bounty danger",
+          "description": "Ghost trains in Far Far West are described as deadly weird-west threats that require more than fast shooting to survive."
+        },
+        {
+          "name": "Far Far West Giant Spectral Necromancer",
+          "type": "Boss Objective Target",
+          "role": "Supernatural boss scenario",
+          "description": "Far Far West mission coverage includes a randomized objective involving a giant spectral necromancer, highlighting the mix of boss targets, heavy firepower, and magical combat."
+        },
+        {
+          "name": "Far Far West Powerful Bosses",
+          "type": "Boss Category",
+          "role": "Contract finale",
+          "description": "Far Far West official descriptions mention waves of enemies and powerful bosses. These encounters are the payout moments where weapons, spells, perks, and team coordination matter most."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
+      "title": "Far Far West Maps and Secrets",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
+      "intro": "Far Far West hides secret objectives across multiple maps, including bell puzzles, cactus parent-child returns, medallion challenges, mushroom sequences, Area 41 symbol inputs, and snowman-part collection. Several secrets connect across maps, especially the Area 41 symbol puzzle and the Far Far North unlock route.",
       "groups": [
         {
-          "name": "Exploración",
+          "name": "Far Far West Map Secrets: Far West",
+          "focus": "Bell minigames, Far Far North quest step, Area 41 symbol",
           "achievements": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "title": "Far Far West Bell Route",
+              "description": "Complete three bell minigames by interacting with the ground bell and shooting sky bells in the shown order."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
+              "title": "Far Far West Bell Progress Pickup",
+              "description": "Pick up the bell after each completed minigame and finish the quest at the top building marker."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "title": "Far Far West Symbol Collection",
+              "description": "Collect the Area 41 symbol from the purple-marked location and track the Far Far North mission marker."
             }
           ]
         },
         {
-          "name": "Artesanía e invocación",
+          "name": "Far Far West Map Secrets: Desert",
+          "focus": "Cactus parent-child return puzzle and Area 41 symbol",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
+              "title": "Far Far West Cactus Family Puzzle",
+              "description": "Find the cactus children and return each one to the matching numbered cactus parent."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
+              "title": "Far Far West Desert Symbol Collection",
+              "description": "Complete cactus pairs in flexible order, then collect the Desert symbol for the Area 41 puzzle."
             }
           ]
         },
         {
-          "name": "Movilidad y utilidad",
+          "name": "Far Far West Map Secrets: Canyon",
+          "focus": "Medallion minigames, final medallion door, Far Far North quest step, Area 41 symbol",
           "achievements": [
             {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
+              "title": "Far Far West Canyon Medallion Route",
+              "description": "Use dynamite to open the northern cave, shoot 10 blue targets on the western route, and dig up the eastern medallion."
             },
             {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
+              "title": "Far Far West Canyon Final Door",
+              "description": "Collect three medallions, secure the final medallion at the finish marker, and place all four into the nearby door."
             }
           ]
         },
         {
-          "name": "Combate y criaturas",
+          "name": "Far Far West Map Secrets: Woodlands",
+          "focus": "Numbered mushroom sequence and Area 41 symbol",
           "achievements": [
             {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
+              "title": "Far Far West Mushroom Sequence",
+              "description": "Find mushrooms numbered 1 through 7, then interact with them in strict numerical order."
             },
             {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
+              "title": "Far Far West Woodlands Symbol Collection",
+              "description": "Return to the finish marker after the sequence and collect the Woodlands symbol for Area 41."
             }
           ]
         },
         {
-          "name": "Crecimiento y cultivo",
+          "name": "Far Far West Map Secrets: Area 41",
+          "focus": "Cross-map symbol puzzle and Far Far North quest step",
           "achievements": [
             {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
+              "title": "Far Far West Area 41 Symbol Input",
+              "description": "Bring symbols from Far West, Desert, Canyon, and Woodlands, then place them on slabs in dot-count order."
             },
             {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
+              "title": "Far Far West Area 41 Mission Link",
+              "description": "Use the marked Area 41 mission location as part of the Far Far North unlock route."
+            }
+          ]
+        },
+        {
+          "name": "Far Far West Map Secrets: Far Far North",
+          "focus": "Snowman parts secret",
+          "achievements": [
             {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
+              "title": "Far Far West Snowman Secret Route",
+              "description": "Find the separate snowman parts, roll each part to the finish marker, and assemble all parts to complete the secret."
             }
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
+      "title": "Far Far West Price",
+      "displayType": "pricingTable",
+      "intro": "The official Far Far West Early Access price is listed as $19.99 / €19.99 / £15.99, with Steam showing a 10% launch-week discount during the launch window. The developer also states that the price is expected to increase when the game transitions from Early Access to version 1.0.",
+      "items": [
+        {
+          "region_or_context": "Steam US Store",
+          "base_price": "$19.99",
+          "current_offer": "10% off launch-week discount",
+          "current_price": "$17.99",
+          "notes": "Steam store and Steam Community listings show the US launch discount price during the Early Access launch window."
+        },
+        {
+          "region_or_context": "Euro Pricing",
+          "base_price": "€19.99",
+          "current_offer": "Launch-week discount applies where supported by Steam regional store settings",
+          "current_price": "€17.99 where the same 10% launch discount is active",
+          "notes": "The official Early Access FAQ lists €19.99 as the base Early Access price."
+        },
+        {
+          "region_or_context": "UK Pricing",
+          "base_price": "£15.99",
+          "current_offer": "Launch-week discount applies where supported by Steam regional store settings",
+          "current_price": "Discounted price varies by Steam regional display",
+          "notes": "The official Early Access FAQ lists £15.99 as the UK base price."
+        },
+        {
+          "region_or_context": "Regional Pricing",
+          "base_price": "Varies by Steam region",
+          "current_offer": "Region-specific Steam pricing",
+          "current_price": "Check the local Steam store page",
+          "notes": "Far Far West states that regional pricing is available, with the full regional list handled through official community channels."
+        },
+        {
+          "region_or_context": "Early Access to 1.0",
+          "base_price": "Early Access base price",
+          "current_offer": "Lower Early Access pricing before full launch",
+          "current_price": "Current Steam store price applies",
+          "notes": "The Far Far West developer states the price is likely to increase when the game transitions from Early Access to 1.0 because more content is planned."
+        }
+      ],
       "faqs": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "question": "What is the current Far Far West price on Steam?",
+          "answer": "Far Far West is listed on Steam at $19.99, with launch-period discounts appearing during specific promotional windows."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "question": "Will Far Far West pricing change after Early Access?",
+          "answer": "Far Far West is expected to increase in price as it moves toward version 1.0 with expanded content."
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
-        },
-        {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "question": "Does Far Far West use regional pricing?",
+          "answer": "Far Far West uses Steam regional pricing, so local currency and final checkout values vary by region."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
+      "title": "Far Far West System Requirements",
+      "displayType": "comparisonTable",
+      "eyebrow": "PC Specs",
+      "subtitle": "Check the official minimum and recommended PC specs before jumping into this chaotic 1-4 player co-op shooter.",
+      "intro": "Far Far West supports Windows PC and uses DirectX 12 by default. The game lists an SSD recommendation for both minimum and recommended setups, with 10 GB of available storage required.",
+      "specs": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "spec": "Operating System",
+          "minimum": "Windows 10, 64-bit required",
+          "recommended": "Windows 11, 64-bit required"
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "spec": "Processor",
+          "minimum": "Intel Core i5-7600K or AMD Ryzen 5 1600",
+          "recommended": "Intel Core i5-10600KF or AMD Ryzen 5 3600X"
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "spec": "Memory",
+          "minimum": "8 GB RAM",
+          "recommended": "16 GB RAM"
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "spec": "Graphics",
+          "minimum": "Nvidia GeForce GTX 1660 or AMD Radeon RX 590",
+          "recommended": "Nvidia GeForce RTX 2060 or AMD Radeon RX 5600XT"
         },
         {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "spec": "DirectX",
+          "minimum": "Version 12",
+          "recommended": "Version 12"
+        },
+        {
+          "spec": "Storage",
+          "minimum": "10 GB available space",
+          "recommended": "10 GB available space"
+        },
+        {
+          "spec": "Additional Notes",
+          "minimum": "SSD recommended",
+          "recommended": "SSD recommended"
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
+      "title": "Far Far West Steam Deck Compatibility",
+      "displayType": "accordion",
+      "eyebrow": "Handheld Play",
+      "subtitle": "Far Far West is listed as Steam Deck Verified, with gamepad input, readable interface text, and default graphics settings that perform well on Deck.",
+      "intro": "SteamDB lists Far Far West under the Steam Deck Verified category, with SteamOS compatibility and gamepad support. The game also notes an active internet connection requirement for single-player gameplay.",
+      "items": [
         {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "label": "Steam Deck Status",
+          "value": "Verified",
+          "content": "Far Far West is listed with the Steam Deck category as Verified and SteamOS compatibility as Compatible. The tested build ID is 22879303, with a Steam Deck test timestamp of April 24, 2026 UTC."
         },
         {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "label": "Controller Support",
+          "value": "Partial Controller Support",
+          "content": "The game supports gamepad input and SteamDB lists Partial Controller Support. All functionality is listed as accessible when using the default controller configuration on Steam Deck."
         },
         {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
+          "label": "Steam Deck Interface",
+          "value": "Deck-friendly UI",
+          "content": "SteamDB lists Steam Deck controller icons, legible in-game interface text, and a default graphics configuration that performs well on Steam Deck."
         },
         {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
+          "label": "Internet Requirement",
+          "value": "Internet required for single-player",
+          "content": "Single-player gameplay requires an active internet connection on Steam Deck and SteamOS."
+        },
+        {
+          "label": "External Controller Note",
+          "value": "Manual controller switching",
+          "content": "Far Far West does not default to external Bluetooth or USB controllers on Deck and may require manually switching the active controller through the Quick Access Menu."
+        },
+        {
+          "label": "Steam Cloud and Saves",
+          "value": "Steam Cloud supported",
+          "content": "Far Far West supports Steam Cloud, and the first Early Access hotfix fixed Steam Deck and PC save sync."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
+      "title": "Far Far West Reviews and Player Count",
+      "displayType": "metricCards",
+      "eyebrow": "Community Momentum",
+      "subtitle": "Track the latest Steam review sentiment, live player count, all-time peak, and launch momentum for Far Far West.",
+      "intro": "Far Far West launched into Steam Early Access on April 28, 2026 and quickly built strong Steam activity. The game is listed with Overwhelmingly Positive review sentiment and a large launch-week player base.",
+      "items": [
         {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "label": "Steam User Reviews",
+          "value": "Overwhelmingly Positive",
+          "content": "Steam lists Far Far West with Overwhelmingly Positive English reviews, with 97% of 6,018 English user reviews marked positive."
         },
         {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "label": "All-Language Review Breakdown",
+          "value": "9,466 positive / 236 negative",
+          "content": "Steam's review filter shows 9,702 total review entries, including 9,466 positive and 236 negative reviews."
         },
         {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "label": "SteamDB Rating Snapshot",
+          "value": "94.58% rating",
+          "content": "SteamDB lists Far Far West with a 94.58% rating and more than 9,000 tracked reviews."
+        },
+        {
+          "label": "Live Steam Players",
+          "value": "25,922",
+          "content": "SteamDB's player counter listed 25,922 players live on Steam on May 1, 2026."
+        },
+        {
+          "label": "All-Time Peak",
+          "value": "30,712",
+          "content": "Far Far West reached an all-time peak of 30,712 concurrent Steam players on May 1, 2026."
+        },
+        {
+          "label": "Demo Momentum",
+          "value": "400,000+ demo players",
+          "content": "The Early Access launch announcement highlighted more than 400,000 demo players and a 98% Overwhelmingly Positive demo rating before launch."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
-      "steps": [
+      "title": "Far Far West Roadmap and Updates",
+      "displayType": "accordion",
+      "eyebrow": "Updates",
+      "subtitle": "Follow Far Far West Early Access roadmap items, launch-week hotfixes, balance updates, quality-of-life changes, and future content plans.",
+      "intro": "Far Far West is using a feedback-led Early Access roadmap. The current update track includes new content, replayability systems, mission modifiers, weekly challenges, cosmetics, and post-launch hotfixes.",
+      "items": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "label": "Early Access Content Roadmap",
+          "value": "New enemies, quests, weapons, spells, and replayability systems",
+          "content": "The Early Access roadmap includes a new Zurkers army, quests and secrets in every map, new weapons, new jokers, new spells, exploration events and gameplay, a new main objective, and replayability systems for late game."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "label": "Future Systems",
+          "value": "Companies, mission modifiers, weekly challenges, and high-risk rewards",
+          "content": "Planned systems include community goals and Companies, high-risk high-reward systems, mission modifiers, punishing extraction, weekly challenges, and skins for players, mounts, and weapons."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "label": "Hotfix 1 - Version 583",
+          "value": "Released April 30, 2026",
+          "content": "The first Early Access hotfix increased save file backups from 10 to 30, added mission-finish backups, added manual backup and save erase tools, and added automatic language setting based on the player's operating system."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "label": "Balance Changes",
+          "value": "Bow XP, spell XP, and boss health updates",
+          "content": "Hotfix 1 buffed Bow XP, buffed XP on Level 1 spells including Fireball, Strikes, Thrower, and Drain, increased XP on all Cactus spells, and raised Cryptic Saloon health from 40 to 60 base planks with difficulty scaling."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "label": "Bug Fixes",
+          "value": "50+ fixes",
+          "content": "Hotfix 1 fixed Steam Deck and PC save sync, AMD Frame Generation display behavior, lobby autokick behavior above four players, Laser Cannon objective calculations, Payload objective pathing on Far Far North, Cheapskate Joker HP updates, Trainwrecks questline data syncing, Secret-related joker sale pricing, and Willy Billy's gatling quest."
+        },
+        {
+          "label": "Quality-of-Life Updates",
+          "value": "Accessibility, controls, stutter messaging, and network improvements",
+          "content": "Hotfix 1 improved screen shake and screen flash accessibility options, reduced selected sound effects, changed Second Wind Joker healing behavior, made the chat key rebindable, improved Canyon secret target visibility, added shader compilation messaging, removed SteamID from the HUD, and improved the internal network system."
+        },
+        {
+          "label": "Tracked Known Issues",
+          "value": "ROG Ally UI, long-session memory behavior, quest blocker, and Deadeye adjustment",
+          "content": "The current known issue list includes ROG Ally UI problems, possible memory leak issues during long play sessions, Disgrace Joker blocking Otto's riding quests, and Deadeye being adjusted based on feedback."
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Far Far West Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything players ask about Far Far West before and after buying",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "Is Far Far West playable right now?",
+        "answer": "Yes. Far Far West is currently playable on Steam in Early Access."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "How many players does Far Far West support?",
+        "answer": "Far Far West supports solo play and online co-op for up to four players."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "What kind of game is Far Far West?",
+        "answer": "Far Far West is a co-op PvE FPS that blends bounty missions, spells, gunplay, and extraction-style pressure."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "Will Far Far West get more content during Early Access?",
+        "answer": "Yes. Far Far West is planned to expand with new systems, balance updates, and additional content on the road to 1.0."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "Where can I follow Far Far West updates?",
+        "answer": "You can follow Far Far West updates through Steam News, Steam Community, and the official Far Far West Discord."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "Is Far Far West worth learning in co-op?",
+        "answer": "Far Far West is designed around coordinated team play, so co-op squads can take on harder contracts with better consistency."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "Ready to Ride into Far Far West?",
+    "description": "Join the Far Far West community, follow upcoming updates, and jump straight into Steam Early Access.",
+    "joinCommunity": "Join Far Far West Discord",
+    "joinGame": "Play Far Far West on Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidad",
+    "title": "Far Far West",
+    "description": "Your fan-made resource hub for Far Far West guides, co-op tips, updates, and community links.",
+    "resources": "Resources",
+    "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Official Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
-    "about": "Acerca de",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "steamCommunity": "Reddit Community",
+    "steamStore": "Official Trailer",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Far Far West Wiki. Unofficial fan-made site, not affiliated with Evil Raptor or Fireshine Games.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "codes": {
+      "title": "Far Far West Codes",
+      "description": "Latest Far Far West code updates, redemption steps, reward notes, and expiration tracking in one place.",
+      "metaTitle": "Far Far West Codes - Redemption Guide and Reward Updates",
+      "metaDescription": "Track Far Far West code updates, learn redemption steps, and check reward notes and expiration status.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Far Far West Codes?",
+      "whatIsDescription": "Far Far West code pages track every official code mention, redemption requirement, and reward type so players can claim bonuses quickly.",
+      "why": "Why check Far Far West Codes?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Track New Far Far West Codes Fast",
+        "step1Description": "See newly released code strings and activation windows without searching multiple channels.",
+        "step2Title": "Redeem Far Far West Codes Correctly",
+        "step2Description": "Follow clear redemption steps and platform notes to avoid input mistakes.",
+        "step3Title": "Plan Rewards Around Far Far West Progress",
+        "step3Description": "Use reward details to time redemptions for leveling, upgrades, and team runs."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Featured & Essential",
+      "all": "All Far Far West Codes"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "guide": {
+      "title": "Far Far West Guide",
+      "description": "Complete Far Far West guide coverage for beginner flow, mission pacing, survival basics, and co-op decision making.",
+      "metaTitle": "Far Far West Guide - Beginner Flow and Co-op Strategy",
+      "metaDescription": "Read the Far Far West guide hub for beginner onboarding, mission pacing, survival tips, and co-op fundamentals.",
+      "categoryLabel": "BEGINNER GUIDE",
+      "whatIs": "What is the Far Far West Guide category?",
+      "whatIsDescription": "Far Far West guide pages explain the core gameplay loop, early priorities, contract routing, and practical combat routines.",
+      "why": "Why read the Far Far West Guide section?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Learn Far Far West Core Systems",
+        "step1Description": "Understand contract objectives, extraction pressure, and progression checkpoints early.",
+        "step2Title": "Improve Far Far West Team Consistency",
+        "step2Description": "Use repeatable co-op routines that reduce failed runs and wasted resources.",
+        "step3Title": "Scale Far Far West Efficiency",
+        "step3Description": "Apply advanced habits that increase mission speed and run stability."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Featured & Essential",
+      "all": "All Far Far West Guide Articles"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "release": {
+      "title": "Far Far West Release",
+      "description": "Follow Far Far West release date changes, Early Access milestones, pricing updates, and patch chronology.",
+      "metaTitle": "Far Far West Release - Date, Early Access, and Patch Timeline",
+      "metaDescription": "Track Far Far West release milestones including launch date, Early Access status, pricing updates, and patch timeline.",
+      "categoryLabel": "RELEASE TRACKER",
+      "whatIs": "What is the Far Far West Release category?",
+      "whatIsDescription": "Far Far West release pages collect launch milestones, version progress, and major announcement timelines from official channels.",
+      "why": "Why follow Far Far West Release updates?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Track Far Far West Launch Milestones",
+        "step1Description": "Keep release date, phase, and version status in one updated timeline.",
+        "step2Title": "Monitor Far Far West Patch Cadence",
+        "step2Description": "Review update frequency to understand how quickly issues and balance changes are addressed.",
+        "step3Title": "Plan Around Far Far West Version Changes",
+        "step3Description": "Prepare teams and play schedules around roadmap drops, events, and hotfix waves."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Featured & Essential",
+      "all": "All Far Far West Release Articles"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "locations": {
+      "title": "Far Far West Locations",
+      "description": "Map-focused Far Far West locations guides for routes, hidden spots, collectible paths, and extraction planning.",
+      "metaTitle": "Far Far West Locations - Maps, Routes, and Hidden Spots",
+      "metaDescription": "Use Far Far West locations guides to navigate maps, find hidden spots, and optimize route planning.",
+      "categoryLabel": "MAP LOCATIONS",
+      "whatIs": "What are Far Far West Locations?",
+      "whatIsDescription": "Far Far West locations pages break down map zones, route logic, landmark references, and repeatable search paths.",
+      "why": "Why use Far Far West Locations guides?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Navigate Far Far West Objectives Faster",
+        "step1Description": "Use efficient paths to reduce travel time and avoid unnecessary fights.",
+        "step2Title": "Find Far Far West Hidden Content",
+        "step2Description": "Locate collectibles, secret points, and optional objectives with clear route notes.",
+        "step3Title": "Improve Far Far West Extraction Safety",
+        "step3Description": "Plan fallback exits and regroup points before mission pressure spikes."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Featured & Essential",
+      "all": "All Far Far West Locations Articles"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "spells": {
+      "title": "Far Far West Spells",
+      "description": "Far Far West spells coverage for combo logic, role synergy, upgrade order, and encounter-based casting decisions.",
+      "metaTitle": "Far Far West Spells - Combos, Synergy, and Upgrade Paths",
+      "metaDescription": "Master Far Far West spells with combo references, role synergy tips, and practical upgrade path planning.",
+      "categoryLabel": "SPELL COMBOS",
+      "whatIs": "What are Far Far West Spells guides?",
+      "whatIsDescription": "Far Far West spells pages explain elemental interactions, combo timing, scaling choices, and team utility patterns.",
+      "why": "Why study Far Far West Spells?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Build Far Far West Combo Consistency",
+        "step1Description": "Use tested casting sequences to improve burst windows and control uptime.",
+        "step2Title": "Match Far Far West Team Roles",
+        "step2Description": "Align spell kits with squad roles for stronger co-op coordination.",
+        "step3Title": "Optimize Far Far West Upgrade Value",
+        "step3Description": "Prioritize spell progression choices that retain impact in harder content."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Featured & Essential",
+      "all": "All Far Far West Spells Articles"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "weapons": {
+      "title": "Far Far West Weapons",
+      "description": "Far Far West weapons guides for loadout selection, upgrade priorities, range control, and mission-specific picks.",
+      "metaTitle": "Far Far West Weapons - Loadouts, Upgrades, and Role Picks",
+      "metaDescription": "Compare Far Far West weapons by loadout role, upgrade priority, and mission fit for solo and co-op play.",
+      "categoryLabel": "WEAPON LOADOUTS",
+      "whatIs": "What are Far Far West Weapons guides?",
+      "whatIsDescription": "Far Far West weapons pages compare weapon archetypes, upgrade routes, and practical matchups across mission types.",
+      "why": "Why follow Far Far West Weapons coverage?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Choose Far Far West Core Loadouts",
+        "step1Description": "Select weapon sets that match your mission tier and team role.",
+        "step2Title": "Prioritize Far Far West Upgrade Routes",
+        "step2Description": "Invest in weapon paths with reliable scaling and utility impact.",
+        "step3Title": "Adapt Far Far West Combat Style",
+        "step3Description": "Switch loadouts by objective type, range pressure, and enemy composition."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Featured & Essential",
+      "all": "All Far Far West Weapons Articles"
     }
   }
 }
