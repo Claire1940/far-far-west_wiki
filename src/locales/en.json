@@ -83,22 +83,22 @@
       {
         "icon": "Home",
         "title": "Far Far West Beginner Guide",
-        "description": "First-session path, safe upgrades, and survival flow"
+        "description": "Step-by-step contracts, movement, gold economy, and early survival mistakes"
       },
       {
         "icon": "Eye",
         "title": "Far Far West Weapons Guide",
-        "description": "Weapon roles, upgrade priorities, and loadout picks"
+        "description": "Primary and secondary weapon roles, upgrades, and beginner-friendly picks"
       },
       {
         "icon": "AlertTriangle",
         "title": "Far Far West Spells and Combos",
-        "description": "Element interactions, burst combos, and support spells"
+        "description": "Spell families, combo chains, elemental reactions, and team timing"
       },
       {
         "icon": "ArrowRight",
         "title": "Far Far West Builds and Progression",
-        "description": "Perks, jokers, long-term scaling, and team synergies"
+        "description": "First investments, build styles, jokers, and long-term progression goals"
       },
       {
         "icon": "TrendingUp",
@@ -273,122 +273,203 @@
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "Far Far West Beginner Guide",
       "displayType": "cards",
-      "intro": "Far Far West beginners progress fastest by stabilizing early contracts, prioritizing survivability upgrades, and learning extraction timing before risky objectives.",
+      "intro": "Far Far West is built around short co-op bounty runs where robot cowboys enter a mission, complete marked objectives, fight waves and bosses, collect rewards, and return to town to upgrade guns, spells, abilities, and perks. New players should focus less on perfect aim and more on movement, team roles, spell timing, and steady progression.",
       "cards": [
         {
-          "name": "Far Far West First Contract Path",
-          "description": "Start with lower-pressure contracts in Far Far West to learn route layouts, revive timing, and enemy pacing."
+          "name": "Far Far West Beginner Step 1: Start in Town Loadout",
+          "description": "Before launching a run, use the town hub to prepare your gun loadout, spell choices, and upgrades. A safe beginner setup is one weapon or spell plan for clearing small enemies and one option for elites or bosses."
         },
         {
-          "name": "Far Far West Early Economy",
-          "description": "Spend early Far Far West rewards on stability-focused upgrades first, then expand into specialized damage options."
+          "name": "Far Far West Beginner Step 2: Pick a Manageable Bounty",
+          "description": "Runs are built around mission objectives and boss encounters. Start with lower-pressure contracts while learning map flow, enemy types, spell cooldowns, and extraction timing."
         },
         {
-          "name": "Far Far West Survival Priority",
-          "description": "In Far Far West, consistent healing, positioning, and escape discipline outperform pure aggression in early runs."
+          "name": "Far Far West Beginner Step 3: Move Before You Shoot",
+          "description": "Use Shift to dash and Space to jump. Combining dash and jump gives extra height or distance, while repeated dash-jump chains help you dodge incoming damage during waves and boss fights."
         },
         {
-          "name": "Far Far West Team Communication",
-          "description": "Call targets, cooldowns, and extraction decisions clearly to reduce wipes in Far Far West co-op sessions."
+          "name": "Far Far West Beginner Step 4: Follow Objective and Collect",
+          "description": "Core mission tasks are marked on the map, while optional side objectives, chests, graves, secrets, and mining outcrops reward exploration. Detour when the team is healthy, then return to the main objective before the run gets chaotic."
+        },
+        {
+          "name": "Far Far West Beginner Step 5: Handle Gold with the Right Tool",
+          "description": "Gold and mining outcrops feed your upgrade economy. Mining gives better cash value when the area is safe, while Fireball can break gold veins quickly when you are under pressure or moving fast."
+        },
+        {
+          "name": "Far Far West Beginner Step 6: Use Spells as Horde Tools",
+          "description": "Spells are strong against groups and become much better when combined. Early examples include Mino into Strikes for wide lightning coverage, Thrower into Fireball for explosions, and Voodoo effects for healing candles."
+        },
+        {
+          "name": "Far Far West Beginner Step 7: Upgrade After Each Run",
+          "description": "Back in town, spend rewards on gun damage, spell power, ability upgrades, and perks that support your role. Damage-first upgrades make most weapons feel stronger, then reload speed, fire rate, ammo efficiency, lifesteal, or weakpoint bonuses can fix specific weaknesses."
+        },
+        {
+          "name": "Far Far West Beginner Step 8: Avoid Common Early Mistakes",
+          "description": "The fastest way to lose a run is standing still, ignoring spell combos, skipping easy upgrade cash, taking a boss-only weapon into hordes, or splitting too far from teammates. Play close enough to revive, share objective progress, and let each player cover a different combat role."
         }
       ],
       "highlights": [
-        "Far Far West Learn Contract Flow",
-        "Far Far West Prioritize Survival Upgrades",
-        "Far Far West Coordinate Spell Cooldowns",
-        "Far Far West Extract Before Overcommitment"
+        "Far Far West cover both crowd control and boss damage in your loadout.",
+        "Far Far West read objective demands before committing your route.",
+        "Far Far West keep moving with dash-jump chains during waves and bosses.",
+        "Far Far West spend rewards after every clear to stay ahead of scaling pressure."
       ]
     },
     "lucidBlocksWorldRegions": {
       "title": "Far Far West Weapons Guide",
       "displayType": "regionCards",
-      "intro": "Far Far West weapon choices define mission pace, boss windows, and team flexibility. Build around accuracy, crowd control, and safe burst options.",
+      "intro": "Every weapon can work with enough upgrades and Joker support, but a strong loadout should either split responsibilities between crowd clear and boss damage or handle both jobs decently. Beginners should start with reliable weapons, then specialize once they know which enemies and bosses give them trouble.",
       "regions": [
         {
-          "name": "Far Far West Sidearm Class",
-          "type": "Precision Role",
-          "description": "Sidearms in Far Far West are reliable for finishing targets and conserving stronger cooldown tools."
+          "name": "Far Far West Quad Cylinder",
+          "type": "Primary | Reliable starter gun",
+          "description": "Best for General clearing, weakpoint hits, learning objectives. Upgrade priority: Damage first, then weakpoint support and handling. Early recommendation: Keep it while learning the game loop because it performs well without forcing a narrow playstyle."
         },
         {
-          "name": "Far Far West Burst Weapons",
-          "type": "Boss Damage",
-          "description": "Burst-focused Far Far West weapons are strongest when synchronized with stun or debuff spell setups."
+          "name": "Far Far West Shotgun",
+          "type": "Primary | Close-range comfort weapon",
+          "description": "Best for Trash waves, elites, chaotic co-op fights, interrupting Deadeye-style threats. Upgrade priority: Damage and reload speed. Early recommendation: One of the easiest early picks because it clears fast, requires less precision, and stays useful against most enemies."
         },
         {
-          "name": "Far Far West Crowd Weapons",
-          "type": "Wave Clear",
-          "description": "Area-control weapon picks in Far Far West help teams handle dense waves and protect revive attempts."
+          "name": "Far Far West Long Ranger",
+          "type": "Primary | Precision boss killer",
+          "description": "Best for Elites, bosses, weakpoint damage, high-value targets. Upgrade priority: Damage, fire rate, weakpoint-focused Jokers. Early recommendation: Pair it with a crowd-clearing secondary or spell setup so small enemies do not overwhelm you."
         },
         {
-          "name": "Far Far West Upgrade Routing",
-          "type": "Progression Plan",
-          "description": "Upgrade one primary Far Far West weapon line early, then diversify for specific mission modifiers."
+          "name": "Far Far West Minigun",
+          "type": "Primary | Sustained DPS weapon",
+          "description": "Best for Large waves, bosses, long fights after investment. Upgrade priority: Ammo efficiency, damage, reload support. Early recommendation: Strong when supported by ammo-focused upgrades and Jokers; keep moving because you can still dash and jump while firing."
+        },
+        {
+          "name": "Far Far West Leveredge",
+          "type": "Primary | High single-target damage rifle",
+          "description": "Best for Elites and bosses. Upgrade priority: Damage, reload speed, fire rate, weakpoint value. Early recommendation: Use it as a boss-focused primary and cover trash clear through spells or a secondary."
+        },
+        {
+          "name": "Far Far West Revolver",
+          "type": "Secondary | Consistent backup sidearm",
+          "description": "Best for Weakpoint damage and reliable single-target support. Upgrade priority: Damage, Electric element for area value, lifesteal after investment. Early recommendation: A dependable secondary for players who want a simple backup weapon with clean aiming."
+        },
+        {
+          "name": "Far Far West Bow",
+          "type": "Secondary | Element-combo weapon",
+          "description": "Best for Spell synergy, elemental puddles, crowd interactions. Upgrade priority: Damage and element synergy. Early recommendation: Use it with spell combos rather than treating it like a normal gun."
+        },
+        {
+          "name": "Far Far West Dual Revolvers",
+          "type": "Secondary | Trash-clear sidearm",
+          "description": "Best for Small enemies, fast hits, lifesteal value. Upgrade priority: Lifesteal, reload support, damage. Early recommendation: Great for clearing weaker enemies, but pair it with a primary that can kill bosses."
+        },
+        {
+          "name": "Far Far West Boomerang",
+          "type": "Secondary | Infinite-ammo sustain tool",
+          "description": "Best for Repeated damage ticks, trash clear, lifesteal setups. Upgrade priority: Lifesteal, damage, Acid element for control. Early recommendation: Excellent for sustain and repeated hits; avoid relying on it against shielded enemies that can deflect it."
+        },
+        {
+          "name": "Far Far West Sheriff Star",
+          "type": "Secondary | High-skill retrieval weapon",
+          "description": "Best for Close-range pressure and aim-focused play. Upgrade priority: Damage, recovery rhythm, lifesteal. Early recommendation: Best for players who can fight close, land throws, and retrieve missed stars without taking too much damage."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
       "title": "Far Far West Spells and Combos",
       "displayType": "creatureCards",
-      "intro": "Far Far West spellcasting adds utility, burst, and control layers on top of gunplay. Smart combos create safer windows for objective clears and boss phases.",
+      "intro": "Spellcasting is the main layer that separates Far Far West from a standard co-op shooter. Spells can be used alone, but their strongest value comes from chaining elements, placing setup spells first, and letting teammates trigger follow-up effects during waves and boss fights.",
       "creatures": [
         {
-          "name": "Far Far West Fire and Lightning Combo",
-          "role": "Elemental Combo",
-          "description": "In Far Far West, chaining fire pressure into lightning burst can quickly break priority targets."
+          "name": "Far Far West Acid Spell Family",
+          "role": "Acid Combo",
+          "description": "Core effects: Acid puddles, Geyser, Bubble, Acid Rain. Combo examples: Acid plus Fire or Electric triggers elemental explosions. Geyser on a lightning puddle creates three more geysers. Bubble on a fire puddle creates a travelling fire tornado, while Bubble on an electric puddle splits into three bubbles. Acid Rain with Strikes becomes a thunderstorm that hits random enemies. Best use: Area denial, combo setup, group damage, and forcing enemies through damaging zones. Team tip: Place Acid first, then let a teammate follow with Fire or Electric to turn the puddle into a larger damage event."
         },
         {
-          "name": "Far Far West Slow and Burst Combo",
-          "role": "Control Combo",
-          "description": "Use Far Far West crowd-control spells first, then commit burst weapons while enemies are locked down."
+          "name": "Far Far West Cactus Spell Family",
+          "role": "Cactus Combo",
+          "description": "Core effects: Mino, Decoyo, Pistolero, Wallo-style cactus setups. Combo examples: Mino can be imbued with another element. Decoyo can be hit with elemental damage to explode with that element. Pistolero can be imbued for extra elemental damage. Strikes on Mino, Pistolero, Wallo, or Decoyo creates six thunder strikes in multiple directions. Best use: Pre-fight setup, boss area control, and team-triggered burst damage. Team tip: Drop cactus spells before the wave reaches the team, then call out which element should trigger them."
         },
         {
-          "name": "Far Far West Sustain Spell Routing",
-          "role": "Support Combo",
-          "description": "Far Far West support spells stabilize runs by reducing downtime between horde pushes."
+          "name": "Far Far West Electric Spell Family",
+          "role": "Electric Combo",
+          "description": "Core effects: Strikes, Wisp, Portal, Boing, electric puddles. Combo examples: Electric damage on Mino arcs bolts to nearby enemies. Strikes on Acid Rain creates a thunderstorm. Portal duplicates spell cards thrown through it, and Portal into Portal creates an electric explosion. Boing with Thunderstrike gives extra movement speed. Best use: Chain damage, movement boosts, spell duplication, and wide-area wave control. Team tip: Use Electric as the follow-up element when Acid or cactus setups are already active."
         },
         {
-          "name": "Far Far West Team Spell Stacking",
-          "role": "Co-op Combo",
-          "description": "Far Far West squads can stagger spell cooldowns to maintain near-constant control during heavy fights."
+          "name": "Far Far West Fire Spell Family",
+          "role": "Fire Combo",
+          "description": "Core effects: Fireball, Firebeam, fire puddles, burn effects. Combo examples: Fireball instantly breaks gold veins. Firebeam on Acid puddles or geysers creates a travelling fire tornado. Fireball into Thrower repeatedly explodes the target through acid ticks. Fireball into Mino increases damage and burns the enemy. Best use: Burst damage, fast gold breaks, burn pressure, and explosive follow-ups. Team tip: Use Fire when enemies are grouped or when the team needs to turn an Acid setup into immediate damage."
         },
         {
-          "name": "Far Far West Boss Phase Casting",
-          "role": "Boss Combo",
-          "description": "Save high-impact Far Far West spells for exposed boss windows instead of spending all cooldowns on trash waves."
+          "name": "Far Far West Voodoo Spell Family",
+          "role": "Voodoo Combo",
+          "description": "Core effects: Drain, Ritual, healing candles, ally conversion effects. Combo examples: Voodoo spells cast on allies, enemies, or near elemental puddles spawn floating candles that heal for 3 HP when picked up. Drain on Mino or Decoyo makes affected enemies fight for you after the explosion. Ritual on Pistolero, Wallo, or Decoyo adds another healing area. Best use: Team sustain, recovery during long fights, and converting enemies into temporary allies. Team tip: Use Voodoo when the team is low or holding a position during a boss or objective phase."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
       "title": "Far Far West Builds and Progression",
       "displayType": "itemCards",
-      "intro": "Far Far West progression supports multiple build paths, including precision gunplay, spell-heavy control, and balanced co-op utility loadouts.",
+      "intro": "Progression in Far Far West is about improving guns, spells, abilities, perks, and character customization between bounty runs. Strong builds usually start with damage, then add the missing piece: reload speed, ammo efficiency, movement, lifesteal, spell damage, healing, or weakpoint power.",
       "items": [
         {
-          "name": "Far Far West Gunner Build",
-          "type": "Damage Build",
-          "description": "Focus on weapon uptime, precision bonuses, and burst follow-up for Far Far West boss encounters."
+          "name": "Far Far West Damage First Core",
+          "type": "Best First Investments | Weapon damage and faster mission clears",
+          "description": "Investments: Upgrade damage before tuning reload, fire rate, ammo, or niche bonuses. Works with: Every primary and most secondary weapons. Why use it: More damage makes early weapons feel stronger and supports weapon XP through higher damage output."
         },
         {
-          "name": "Far Far West Spellcaster Build",
-          "type": "Control Build",
-          "description": "Prioritize cooldown recovery and elemental synergy for Far Far West wave management and objective safety."
+          "name": "Far Far West Movement Survival Core",
+          "type": "Best First Investments | Dash-jump chains, bunnyhopping, and survival spacing",
+          "description": "Investments: Take movement bonuses through upgrades and Jokers when available. Works with: Solo players, boss fights, high-pressure co-op runs. Why use it: Better movement keeps you alive long enough for guns, spells, and teammates to do their jobs."
         },
         {
-          "name": "Far Far West Support Build",
-          "type": "Team Build",
-          "description": "Build around healing, control, and revive consistency to stabilize Far Far West co-op mission clears."
+          "name": "Far Far West Spell Usage Core",
+          "type": "Best First Investments | Spell XP, cooldown rhythm, and combo uptime",
+          "description": "Investments: Use spells frequently, practice combinations, and invest in spell damage or cooldown-friendly upgrades. Works with: Mino, Strikes, Fireball, Thrower, Drain, Acid, Cactus, Electric, Fire, and Voodoo setups. Why use it: Spell XP rewards active usage, and combos solve horde problems that guns alone handle more slowly."
         },
         {
-          "name": "Far Far West Hybrid Build",
-          "type": "Flexible Build",
-          "description": "Blend weapon burst with utility spells for Far Far West contracts that mix dense waves and mobile bosses."
+          "name": "Far Far West Headshot Boss Hunter",
+          "type": "Strong Build Styles | Weakpoint damage and elite control",
+          "description": "Investments: Long Ranger or Leveredge with damage, fire rate, Glass Cannon, Consumer, and Weakpoint-style Jokers. Works with: Teams that already have crowd clear covered. Why use it: High weakpoint damage deletes elites and bosses when the player can aim under pressure."
+        },
+        {
+          "name": "Far Far West Shotgun Comfort Clear",
+          "type": "Strong Build Styles | Close-range crowd clearing",
+          "description": "Investments: Shotgun damage, reload speed, and survivability support. Works with: Solo learning, chaotic public co-op, wave-heavy missions. Why use it: The Shotgun handles trash waves quickly and stays easy to use when enemies are close."
+        },
+        {
+          "name": "Far Far West Minigun Ammo DPS",
+          "type": "Strong Build Styles | Sustained fire and long fights",
+          "description": "Investments: Minigun damage, ammo efficiency, reload support, and ammo-focused Jokers. Works with: Boss phases, big waves, teams that can protect the gunner. Why use it: With the right ammo economy, the Minigun becomes a constant damage engine."
+        },
+        {
+          "name": "Far Far West Spell Combo Caster",
+          "type": "Strong Build Styles | Element reactions and team-triggered damage",
+          "description": "Investments: Spell damage, cooldown rhythm, Mino plus Strikes, Acid plus Fire or Electric, and Voodoo support tools. Works with: Co-op teams that communicate spell order. Why use it: Combo spells create larger effects than single casts and let teammates multiply each other's value."
+        },
+        {
+          "name": "Far Far West Healing Support",
+          "type": "Strong Build Styles | Sustain, lifesteal, and team recovery",
+          "description": "Investments: Voodoo spells, Drain, Ritual, Boomerang or Dual Revolvers lifesteal, and survival Jokers. Works with: Long objectives, boss fights, and teams taking repeated chip damage. Why use it: Healing candles, lifesteal ticks, and support spells help the team stay in the run instead of burning revives."
+        },
+        {
+          "name": "Far Far West Balanced Two-Role Loadout",
+          "type": "Long-Term Progression Goals | One tool for trash, one tool for bosses",
+          "description": "Investments: Pair Shotgun, Dual Revolvers, Bow, or Boomerang for clearing with Long Ranger, Leveredge, Revolver, or Minigun for stronger single-target damage. Works with: Most solo and co-op runs. Why use it: A loadout that covers both enemy waves and boss damage is more stable than a one-dimensional build."
+        },
+        {
+          "name": "Far Far West Secrets and Quest Progression",
+          "type": "Long-Term Progression Goals | Collectibles, graves, bells, medallions, and questlines",
+          "description": "Investments: Route exploration into runs and finish one-instance secrets before leaving the mission. Works with: Players who want map completion and long-term objectives. Why use it: Some secrets must be completed in one mission instance, while broader collectibles and quest progress can carry across missions."
+        },
+        {
+          "name": "Far Far West Cosmetic Cowboy",
+          "type": "Long-Term Progression Goals | Robot cowboy and steed customization",
+          "description": "Investments: Unlock skins and cosmetics after your core combat upgrades are stable. Works with: Players who want long-term personalization. Why use it: Cosmetic progression gives players a reason to keep refining runs after core combat builds are already comfortable."
         }
       ],
       "unlockMilestones": [
-        "Far Far West Choose Core Build Role",
-        "Far Far West Commit Perk Priorities",
-        "Far Far West Add Counter-Pick Options",
-        "Far Far West Optimize for Endgame Contracts"
+        "Far Far West Build Tier: Best First Investments",
+        "Far Far West Build Tier: Strong Build Styles",
+        "Far Far West Build Tier: Long-Term Progression Goals",
+        "Far Far West Progression Focus: Damage First, Then Role Support"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
