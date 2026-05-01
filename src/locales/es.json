@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Guías",
-    "crafting": "Fabricación",
-    "items": "Objetos",
-    "biomes": "Biomas",
-    "building": "Construcción",
-    "support": "Soporte"
+    "codes": "Codes",
+    "guide": "Guide",
+    "release": "Release",
+    "locations": "Locations",
+    "spells": "Spells",
+    "weapons": "Weapons"
   },
   "common": {
     "home": "Inicio",

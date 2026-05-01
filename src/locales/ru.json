@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "codes": "Codes",
+    "guide": "Guide",
+    "release": "Release",
+    "locations": "Locations",
+    "spells": "Spells",
+    "weapons": "Weapons"
   },
   "common": {
     "home": "Главная",

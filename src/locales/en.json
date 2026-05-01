@@ -10,7 +10,14 @@
       "twitterDescription": "Far Far West Wiki covers release updates, Early Access details, co-op guides, weapons, spells, builds, bosses, maps, and roadmap news."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "release": "Release",
+    "locations": "Locations",
+    "spells": "Spells",
+    "weapons": "Weapons"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -954,125 +961,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Far Far West Guides",
-      "description": "Complete Far Far West guides from first contracts to high-risk co-op clears and advanced team strategy.",
-      "metaTitle": "Far Far West Guides - Beginner to Advanced Co-op Strategy",
-      "metaDescription": "Complete Far Far West guides covering beginner flow, co-op tactics, objective routing, and advanced survival strategy.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Far Far West Guides?",
-      "whatIsDescription": "Comprehensive Far Far West guides for mission routing, combat rhythm, bounty strategy, and team coordination.",
-      "why": "Why read Far Far West guides?",
+    "codes": {
+      "title": "Far Far West Codes",
+      "description": "Latest Far Far West code updates, redemption steps, reward notes, and expiration tracking in one place.",
+      "metaTitle": "Far Far West Codes - Redemption Guide and Reward Updates",
+      "metaDescription": "Track Far Far West code updates, learn redemption steps, and check reward notes and expiration status.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Far Far West Codes?",
+      "whatIsDescription": "Far Far West code pages track every official code mention, redemption requirement, and reward type so players can claim bonuses quickly.",
+      "why": "Why check Far Far West Codes?",
+      "whySteps": {
+        "step1Title": "Track New Far Far West Codes Fast",
+        "step1Description": "See newly released code strings and activation windows without searching multiple channels.",
+        "step2Title": "Redeem Far Far West Codes Correctly",
+        "step2Description": "Follow clear redemption steps and platform notes to avoid input mistakes.",
+        "step3Title": "Plan Rewards Around Far Far West Progress",
+        "step3Description": "Use reward details to time redemptions for leveling, upgrades, and team runs."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Far Far West Codes"
+    },
+    "guide": {
+      "title": "Far Far West Guide",
+      "description": "Complete Far Far West guide coverage for beginner flow, mission pacing, survival basics, and co-op decision making.",
+      "metaTitle": "Far Far West Guide - Beginner Flow and Co-op Strategy",
+      "metaDescription": "Read the Far Far West guide hub for beginner onboarding, mission pacing, survival tips, and co-op fundamentals.",
+      "categoryLabel": "BEGINNER GUIDE",
+      "whatIs": "What is the Far Far West Guide category?",
+      "whatIsDescription": "Far Far West guide pages explain the core gameplay loop, early priorities, contract routing, and practical combat routines.",
+      "why": "Why read the Far Far West Guide section?",
       "whySteps": {
         "step1Title": "Learn Far Far West Core Systems",
-        "step1Description": "Understand contracts, extraction pressure, and progression priorities quickly",
+        "step1Description": "Understand contract objectives, extraction pressure, and progression checkpoints early.",
         "step2Title": "Improve Far Far West Team Consistency",
-        "step2Description": "Use proven co-op routines to reduce wipes and secure more rewards",
-        "step3Title": "Master Far Far West Endgame Pace",
-        "step3Description": "Apply advanced strategy for harder contracts and boss windows"
+        "step2Description": "Use repeatable co-op routines that reduce failed runs and wasted resources.",
+        "step3Title": "Scale Far Far West Efficiency",
+        "step3Description": "Apply advanced habits that increase mission speed and run stability."
       },
       "featured": "Featured & Essential",
-      "all": "All Far Far West Guides"
+      "all": "All Far Far West Guide Articles"
     },
-    "crafting": {
-      "title": "Far Far West Spells and Builds",
-      "description": "Master Far Far West spell interactions, build planning, and cooldown routing for co-op and solo contracts.",
-      "metaTitle": "Far Far West Spells and Builds - Combos, Roles, and Progression",
-      "metaDescription": "Master Far Far West spells and builds with combo routes, role planning, progression priorities, and co-op synergy tips.",
-      "categoryLabel": "SPELLS & BUILDS",
-      "whatIs": "What are Far Far West Spells and Builds?",
-      "whatIsDescription": "Far Far West spell-and-build guides explain elemental interactions, role archetypes, and upgrade sequencing.",
-      "why": "Why master Far Far West builds?",
+    "release": {
+      "title": "Far Far West Release",
+      "description": "Follow Far Far West release date changes, Early Access milestones, pricing updates, and patch chronology.",
+      "metaTitle": "Far Far West Release - Date, Early Access, and Patch Timeline",
+      "metaDescription": "Track Far Far West release milestones including launch date, Early Access status, pricing updates, and patch timeline.",
+      "categoryLabel": "RELEASE TRACKER",
+      "whatIs": "What is the Far Far West Release category?",
+      "whatIsDescription": "Far Far West release pages collect launch milestones, version progress, and major announcement timelines from official channels.",
+      "why": "Why follow Far Far West Release updates?",
       "whySteps": {
-        "step1Title": "Unlock Far Far West Role Identity",
-        "step1Description": "Choose reliable damage, control, or support paths",
-        "step2Title": "Improve Far Far West Combo Timing",
-        "step2Description": "Chain spells and weapons for safer wave control",
-        "step3Title": "Scale Far Far West Progression Efficiently",
-        "step3Description": "Invest in perks and upgrades that keep value into harder content"
+        "step1Title": "Track Far Far West Launch Milestones",
+        "step1Description": "Keep release date, phase, and version status in one updated timeline.",
+        "step2Title": "Monitor Far Far West Patch Cadence",
+        "step2Description": "Review update frequency to understand how quickly issues and balance changes are addressed.",
+        "step3Title": "Plan Around Far Far West Version Changes",
+        "step3Description": "Prepare teams and play schedules around roadmap drops, events, and hotfix waves."
       },
       "featured": "Featured & Essential",
-      "all": "All Far Far West Build Guides"
+      "all": "All Far Far West Release Articles"
     },
-    "items": {
-      "title": "Far Far West Weapons",
-      "description": "Detailed Far Far West weapon coverage for loadout planning, upgrade priorities, and mission-specific picks.",
-      "metaTitle": "Far Far West Weapons - Loadouts, Upgrades, and Combat Roles",
-      "metaDescription": "Complete Far Far West weapon guidance including role-based loadouts, upgrade routes, and practical combat usage.",
-      "categoryLabel": "WEAPONS & LOADOUTS",
-      "whatIs": "What are Far Far West Weapon Guides?",
-      "whatIsDescription": "Far Far West weapon guides compare archetypes, burst windows, crowd control options, and co-op compatibility.",
-      "why": "Why check Far Far West weapons?",
-      "whySteps": {
-        "step1Title": "Find Far Far West Core Loadouts",
-        "step1Description": "Pick dependable weapon sets for your current mission tier",
-        "step2Title": "Optimize Far Far West Upgrade Paths",
-        "step2Description": "Invest in weapon lines with strong scaling value",
-        "step3Title": "Match Far Far West Team Needs",
-        "step3Description": "Adjust loadouts to support squad composition and objective style"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Far Far West Weapon Guides"
-    },
-    "biomes": {
-      "title": "Far Far West Maps",
-      "description": "Explore Far Far West regions, mission routes, secret paths, and extraction hotspots across key map zones.",
-      "metaTitle": "Far Far West Maps - Regions, Secrets, and Extraction Routes",
-      "metaDescription": "Explore Far Far West maps with region breakdowns, hidden routes, collectible zones, and safer extraction paths.",
-      "categoryLabel": "MAPS & SECRETS",
-      "whatIs": "What are Far Far West Maps?",
-      "whatIsDescription": "Far Far West map guides cover route planning, collectible landmarks, and risk-aware extraction positioning.",
-      "why": "Why track Far Far West maps?",
+    "locations": {
+      "title": "Far Far West Locations",
+      "description": "Map-focused Far Far West locations guides for routes, hidden spots, collectible paths, and extraction planning.",
+      "metaTitle": "Far Far West Locations - Maps, Routes, and Hidden Spots",
+      "metaDescription": "Use Far Far West locations guides to navigate maps, find hidden spots, and optimize route planning.",
+      "categoryLabel": "MAP LOCATIONS",
+      "whatIs": "What are Far Far West Locations?",
+      "whatIsDescription": "Far Far West locations pages break down map zones, route logic, landmark references, and repeatable search paths.",
+      "why": "Why use Far Far West Locations guides?",
       "whySteps": {
         "step1Title": "Navigate Far Far West Objectives Faster",
-        "step1Description": "Use known paths to reduce downtime and exposure",
-        "step2Title": "Discover Far Far West Hidden Areas",
-        "step2Description": "Find secrets and side rewards without derailing runs",
+        "step1Description": "Use efficient paths to reduce travel time and avoid unnecessary fights.",
+        "step2Title": "Find Far Far West Hidden Content",
+        "step2Description": "Locate collectibles, secret points, and optional objectives with clear route notes.",
         "step3Title": "Improve Far Far West Extraction Safety",
-        "step3Description": "Plan fallback exits before resource pressure spikes"
+        "step3Description": "Plan fallback exits and regroup points before mission pressure spikes."
       },
       "featured": "Featured & Essential",
-      "all": "All Far Far West Map Guides"
+      "all": "All Far Far West Locations Articles"
     },
-    "building": {
-      "title": "Far Far West Co-op Strategy",
-      "description": "Practical Far Far West co-op strategy for squad roles, cooldown calls, objective pacing, and boss execution.",
-      "metaTitle": "Far Far West Co-op Strategy - Squad Roles and Mission Flow",
-      "metaDescription": "Master Far Far West co-op strategy with role coordination, cooldown planning, objective pacing, and boss fight teamwork.",
-      "categoryLabel": "CO-OP STRATEGY",
-      "whatIs": "What is Far Far West Co-op Strategy?",
-      "whatIsDescription": "Far Far West co-op strategy guides help teams coordinate damage, control, sustain, and extraction choices.",
-      "why": "Why improve Far Far West co-op?",
+    "spells": {
+      "title": "Far Far West Spells",
+      "description": "Far Far West spells coverage for combo logic, role synergy, upgrade order, and encounter-based casting decisions.",
+      "metaTitle": "Far Far West Spells - Combos, Synergy, and Upgrade Paths",
+      "metaDescription": "Master Far Far West spells with combo references, role synergy tips, and practical upgrade path planning.",
+      "categoryLabel": "SPELL COMBOS",
+      "whatIs": "What are Far Far West Spells guides?",
+      "whatIsDescription": "Far Far West spells pages explain elemental interactions, combo timing, scaling choices, and team utility patterns.",
+      "why": "Why study Far Far West Spells?",
       "whySteps": {
-        "step1Title": "Stabilize Far Far West Team Roles",
-        "step1Description": "Assign clear responsibilities before each mission",
-        "step2Title": "Coordinate Far Far West Cooldowns",
-        "step2Description": "Stack utility and burst windows for high-pressure fights",
-        "step3Title": "Close Far Far West Runs Consistently",
-        "step3Description": "Extract with discipline instead of overextending late"
+        "step1Title": "Build Far Far West Combo Consistency",
+        "step1Description": "Use tested casting sequences to improve burst windows and control uptime.",
+        "step2Title": "Match Far Far West Team Roles",
+        "step2Description": "Align spell kits with squad roles for stronger co-op coordination.",
+        "step3Title": "Optimize Far Far West Upgrade Value",
+        "step3Description": "Prioritize spell progression choices that retain impact in harder content."
       },
       "featured": "Featured & Essential",
-      "all": "All Far Far West Co-op Articles"
+      "all": "All Far Far West Spells Articles"
     },
-    "support": {
-      "title": "Far Far West Support",
-      "description": "Far Far West technical help for system requirements, Steam Deck setup, performance tuning, and stability checks.",
-      "metaTitle": "Far Far West Support - Technical Setup and Troubleshooting",
-      "metaDescription": "Get Far Far West support for PC requirements, Steam Deck configuration, performance optimization, and stability troubleshooting.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Far Far West Support?",
-      "whatIsDescription": "Far Far West support guides focus on practical setup checks, compatibility tuning, and performance troubleshooting.",
-      "why": "Why use Far Far West support?",
+    "weapons": {
+      "title": "Far Far West Weapons",
+      "description": "Far Far West weapons guides for loadout selection, upgrade priorities, range control, and mission-specific picks.",
+      "metaTitle": "Far Far West Weapons - Loadouts, Upgrades, and Role Picks",
+      "metaDescription": "Compare Far Far West weapons by loadout role, upgrade priority, and mission fit for solo and co-op play.",
+      "categoryLabel": "WEAPON LOADOUTS",
+      "whatIs": "What are Far Far West Weapons guides?",
+      "whatIsDescription": "Far Far West weapons pages compare weapon archetypes, upgrade routes, and practical matchups across mission types.",
+      "why": "Why follow Far Far West Weapons coverage?",
       "whySteps": {
-        "step1Title": "Fix Far Far West Setup Issues",
-        "step1Description": "Resolve common launch and stability blockers quickly",
-        "step2Title": "Optimize Far Far West Performance",
-        "step2Description": "Tune settings for steady co-op readability and response",
-        "step3Title": "Validate Far Far West Platform Readiness",
-        "step3Description": "Confirm specs, controller behavior, and handheld compatibility"
+        "step1Title": "Choose Far Far West Core Loadouts",
+        "step1Description": "Select weapon sets that match your mission tier and team role.",
+        "step2Title": "Prioritize Far Far West Upgrade Routes",
+        "step2Description": "Invest in weapon paths with reliable scaling and utility impact.",
+        "step3Title": "Adapt Far Far West Combat Style",
+        "step3Description": "Switch loadouts by objective type, range pressure, and enemy composition."
       },
       "featured": "Featured & Essential",
-      "all": "All Far Far West Support Articles"
+      "all": "All Far Far West Weapons Articles"
     }
   }
 }
