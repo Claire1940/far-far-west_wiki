@@ -1,0 +1,1866 @@
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "Far-Far-West-codes",
+        "file": "Far-Far-West-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Far-Far-West-before-you-buy",
+        "file": "Far-Far-West-before-you-buy"
+      },
+      {
+        "slug": "Far-Far-West-beginner-guide",
+        "file": "Far-Far-West-beginner-guide"
+      },
+      {
+        "slug": "Far-Far-West-danger-zone",
+        "file": "Far-Far-West-danger-zone"
+      },
+      {
+        "slug": "Far-Far-West-glory",
+        "file": "Far-Far-West-glory"
+      },
+      {
+        "slug": "Far-Far-West-hard-mode",
+        "file": "Far-Far-West-hard-mode"
+      },
+      {
+        "slug": "Far-Far-West-how-many-players",
+        "file": "Far-Far-West-how-many-players"
+      },
+      {
+        "slug": "Far-Far-West-how-to-play",
+        "file": "Far-Far-West-how-to-play"
+      },
+      {
+        "slug": "Far-Far-West-how-to-revive",
+        "file": "Far-Far-West-how-to-revive"
+      },
+      {
+        "slug": "Far-Far-West-jokers",
+        "file": "Far-Far-West-jokers"
+      },
+      {
+        "slug": "Far-Far-West-matchmaking",
+        "file": "Far-Far-West-matchmaking"
+      },
+      {
+        "slug": "Far-Far-West-mushroom-quest",
+        "file": "Far-Far-West-mushroom-quest"
+      },
+      {
+        "slug": "Far-Far-West-overview",
+        "file": "Far-Far-West-overview"
+      },
+      {
+        "slug": "Far-Far-West-progression",
+        "file": "Far-Far-West-progression"
+      },
+      {
+        "slug": "Far-Far-West-review",
+        "file": "Far-Far-West-review"
+      },
+      {
+        "slug": "Far-Far-West-secret-missions",
+        "file": "Far-Far-West-secret-missions"
+      },
+      {
+        "slug": "Far-Far-West-sheriff-stars",
+        "file": "Far-Far-West-sheriff-stars"
+      },
+      {
+        "slug": "Far-Far-West-shovel-quest",
+        "file": "Far-Far-West-shovel-quest"
+      },
+      {
+        "slug": "Far-Far-West-solo",
+        "file": "Far-Far-West-solo"
+      },
+      {
+        "slug": "Far-Far-West-souls-use",
+        "file": "Far-Far-West-souls-use"
+      },
+      {
+        "slug": "Far-Far-West-things-I-wish-I-knew",
+        "file": "Far-Far-West-things-I-wish-I-knew"
+      },
+      {
+        "slug": "Far-Far-West-tips",
+        "file": "Far-Far-West-tips"
+      },
+      {
+        "slug": "Far-Far-West-walkthrough",
+        "file": "Far-Far-West-walkthrough"
+      },
+      {
+        "slug": "Far-Far-West-wandering-trader",
+        "file": "Far-Far-West-wandering-trader"
+      },
+      {
+        "slug": "Far-Far-West-what-is-glory",
+        "file": "Far-Far-West-what-is-glory"
+      },
+      {
+        "slug": "Far-Far-West-worth-it",
+        "file": "Far-Far-West-worth-it"
+      },
+      {
+        "slug": "Far-Far-West-xp-tickets",
+        "file": "Far-Far-West-xp-tickets"
+      },
+      {
+        "slug": "area-41-graves",
+        "file": "area-41-graves"
+      },
+      {
+        "slug": "area-41-train",
+        "file": "area-41-train"
+      },
+      {
+        "slug": "can-you-play-far-far-west-solo",
+        "file": "can-you-play-far-far-west-solo"
+      },
+      {
+        "slug": "far-far-west-all-medallions",
+        "file": "far-far-west-all-medallions"
+      },
+      {
+        "slug": "far-far-west-area-41-secret-mission",
+        "file": "far-far-west-area-41-secret-mission"
+      },
+      {
+        "slug": "far-far-west-best-upgrades",
+        "file": "far-far-west-best-upgrades"
+      },
+      {
+        "slug": "far-far-west-blueprints",
+        "file": "far-far-west-blueprints"
+      },
+      {
+        "slug": "far-far-west-cross-platform",
+        "file": "far-far-west-cross-platform"
+      },
+      {
+        "slug": "far-far-west-crossplay",
+        "file": "far-far-west-crossplay"
+      },
+      {
+        "slug": "far-far-west-enemies",
+        "file": "far-far-west-enemies"
+      },
+      {
+        "slug": "far-far-west-evil-raptor",
+        "file": "far-far-west-evil-raptor"
+      },
+      {
+        "slug": "far-far-west-far-west-disc-fragments",
+        "file": "far-far-west-far-west-disc-fragments"
+      },
+      {
+        "slug": "far-far-west-how-to-make-fire-tornado",
+        "file": "far-far-west-how-to-make-fire-tornado"
+      },
+      {
+        "slug": "far-far-west-joker-cards",
+        "file": "far-far-west-joker-cards"
+      },
+      {
+        "slug": "far-far-west-legendary-jokers",
+        "file": "far-far-west-legendary-jokers"
+      },
+      {
+        "slug": "far-far-west-mushroom-stone",
+        "file": "far-far-west-mushroom-stone"
+      },
+      {
+        "slug": "far-far-west-road-map",
+        "file": "far-far-west-road-map"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "Far-Far-West-all-graves",
+        "file": "Far-Far-West-all-graves"
+      },
+      {
+        "slug": "Far-Far-West-area-41-graves",
+        "file": "Far-Far-West-area-41-graves"
+      },
+      {
+        "slug": "Far-Far-West-bell-locations",
+        "file": "Far-Far-West-bell-locations"
+      },
+      {
+        "slug": "Far-Far-West-cactus-family",
+        "file": "Far-Far-West-cactus-family"
+      },
+      {
+        "slug": "Far-Far-West-cactus-locations",
+        "file": "Far-Far-West-cactus-locations"
+      },
+      {
+        "slug": "Far-Far-West-canyon-grave-locations",
+        "file": "Far-Far-West-canyon-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-desert-cactus",
+        "file": "Far-Far-West-desert-cactus"
+      },
+      {
+        "slug": "Far-Far-West-desert-disc-locations",
+        "file": "Far-Far-West-desert-disc-locations"
+      },
+      {
+        "slug": "Far-Far-West-desert-grave-locations",
+        "file": "Far-Far-West-desert-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-far-far-north-graves",
+        "file": "Far-Far-West-far-far-north-graves"
+      },
+      {
+        "slug": "Far-Far-West-far-north-snowman",
+        "file": "Far-Far-West-far-north-snowman"
+      },
+      {
+        "slug": "Far-Far-West-grave-locations",
+        "file": "Far-Far-West-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-interactive-map",
+        "file": "Far-Far-West-interactive-map"
+      },
+      {
+        "slug": "Far-Far-West-lost-engine-location",
+        "file": "Far-Far-West-lost-engine-location"
+      },
+      {
+        "slug": "Far-Far-West-medallion-locations",
+        "file": "Far-Far-West-medallion-locations"
+      },
+      {
+        "slug": "Far-Far-West-music-disc-locations",
+        "file": "Far-Far-West-music-disc-locations"
+      },
+      {
+        "slug": "Far-Far-West-purple-rock",
+        "file": "Far-Far-West-purple-rock"
+      },
+      {
+        "slug": "Far-Far-West-trainwreck",
+        "file": "Far-Far-West-trainwreck"
+      },
+      {
+        "slug": "Far-Far-West-woodlands-mushrooms",
+        "file": "Far-Far-West-woodlands-mushrooms"
+      },
+      {
+        "slug": "far-far-west-area-41-train",
+        "file": "far-far-west-area-41-train"
+      },
+      {
+        "slug": "far-far-west-area-41",
+        "file": "far-far-west-area-41"
+      },
+      {
+        "slug": "far-far-west-bell-quest",
+        "file": "far-far-west-bell-quest"
+      },
+      {
+        "slug": "far-far-west-cactus-build",
+        "file": "far-far-west-cactus-build"
+      },
+      {
+        "slug": "far-far-west-cactus",
+        "file": "far-far-west-cactus"
+      },
+      {
+        "slug": "far-far-west-canyon-discs",
+        "file": "far-far-west-canyon-discs"
+      },
+      {
+        "slug": "far-far-west-canyon-graves",
+        "file": "far-far-west-canyon-graves"
+      },
+      {
+        "slug": "far-far-west-canyon-medallions",
+        "file": "far-far-west-canyon-medallions"
+      },
+      {
+        "slug": "far-far-west-canyon-quest",
+        "file": "far-far-west-canyon-quest"
+      },
+      {
+        "slug": "far-far-west-far-far-north-secret",
+        "file": "far-far-west-far-far-north-secret"
+      },
+      {
+        "slug": "far-far-west-map",
+        "file": "far-far-west-map"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Far-Far-West-download",
+        "file": "Far-Far-West-download"
+      },
+      {
+        "slug": "Far-Far-West-early-access",
+        "file": "Far-Far-West-early-access"
+      },
+      {
+        "slug": "Far-Far-West-full-release-date",
+        "file": "Far-Far-West-full-release-date"
+      },
+      {
+        "slug": "Far-Far-West-news",
+        "file": "Far-Far-West-news"
+      },
+      {
+        "slug": "Far-Far-West-patch-notes",
+        "file": "Far-Far-West-patch-notes"
+      },
+      {
+        "slug": "Far-Far-West-price",
+        "file": "Far-Far-West-price"
+      },
+      {
+        "slug": "Far-Far-West-release-date",
+        "file": "Far-Far-West-release-date"
+      },
+      {
+        "slug": "Far-Far-West-roadmap",
+        "file": "Far-Far-West-roadmap"
+      },
+      {
+        "slug": "Far-Far-West-update",
+        "file": "Far-Far-West-update"
+      },
+      {
+        "slug": "can-you-play-far-far-west-on-xbox",
+        "file": "can-you-play-far-far-west-on-xbox"
+      }
+    ],
+    "spells": [
+      {
+        "slug": "Far-Far-West-all-spell-combos",
+        "file": "Far-Far-West-all-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-cactus-spell-combos",
+        "file": "Far-Far-West-cactus-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-elemental-combos",
+        "file": "Far-Far-West-elemental-combos"
+      },
+      {
+        "slug": "Far-Far-West-elements",
+        "file": "Far-Far-West-elements"
+      },
+      {
+        "slug": "Far-Far-West-fire-tornado",
+        "file": "Far-Far-West-fire-tornado"
+      },
+      {
+        "slug": "Far-Far-West-magic-combos",
+        "file": "Far-Far-West-magic-combos"
+      },
+      {
+        "slug": "Far-Far-West-spell-combos",
+        "file": "Far-Far-West-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-spell-tier-list",
+        "file": "Far-Far-West-spell-tier-list"
+      },
+      {
+        "slug": "Far-Far-West-spell-xp",
+        "file": "Far-Far-West-spell-xp"
+      },
+      {
+        "slug": "Far-Far-West-voodoo-combos",
+        "file": "Far-Far-West-voodoo-combos"
+      },
+      {
+        "slug": "far-far-west-combos",
+        "file": "far-far-west-combos"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Far-Far-West-best-build",
+        "file": "Far-Far-West-best-build"
+      },
+      {
+        "slug": "Far-Far-West-best-gun",
+        "file": "Far-Far-West-best-gun"
+      },
+      {
+        "slug": "Far-Far-West-best-weapons",
+        "file": "Far-Far-West-best-weapons"
+      },
+      {
+        "slug": "Far-Far-West-boomerang",
+        "file": "Far-Far-West-boomerang"
+      },
+      {
+        "slug": "Far-Far-West-bow",
+        "file": "Far-Far-West-bow"
+      },
+      {
+        "slug": "Far-Far-West-builds",
+        "file": "Far-Far-West-builds"
+      },
+      {
+        "slug": "Far-Far-West-deadeye",
+        "file": "Far-Far-West-deadeye"
+      },
+      {
+        "slug": "Far-Far-West-leveredge",
+        "file": "Far-Far-West-leveredge"
+      },
+      {
+        "slug": "Far-Far-West-quad-cylinder",
+        "file": "Far-Far-West-quad-cylinder"
+      },
+      {
+        "slug": "Far-Far-West-revolver",
+        "file": "Far-Far-West-revolver"
+      },
+      {
+        "slug": "Far-Far-West-speedster",
+        "file": "Far-Far-West-speedster"
+      },
+      {
+        "slug": "Far-Far-West-upgrades",
+        "file": "Far-Far-West-upgrades"
+      },
+      {
+        "slug": "Far-Far-West-weapon-glory",
+        "file": "Far-Far-West-weapon-glory"
+      },
+      {
+        "slug": "Far-Far-West-weapons",
+        "file": "Far-Far-West-weapons"
+      },
+      {
+        "slug": "far-far-west-boomerang-build",
+        "file": "far-far-west-boomerang-build"
+      },
+      {
+        "slug": "far-far-west-bow-build",
+        "file": "far-far-west-bow-build"
+      },
+      {
+        "slug": "far-far-west-quad-cylinder-build",
+        "file": "far-far-west-quad-cylinder-build"
+      },
+      {
+        "slug": "far-far-west-revolver-build",
+        "file": "far-far-west-revolver-build"
+      }
+    ]
+  },
+  "fr": {
+    "codes": [
+      {
+        "slug": "Far-Far-West-codes",
+        "file": "Far-Far-West-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Far-Far-West-before-you-buy",
+        "file": "Far-Far-West-before-you-buy"
+      },
+      {
+        "slug": "Far-Far-West-beginner-guide",
+        "file": "Far-Far-West-beginner-guide"
+      },
+      {
+        "slug": "Far-Far-West-danger-zone",
+        "file": "Far-Far-West-danger-zone"
+      },
+      {
+        "slug": "Far-Far-West-glory",
+        "file": "Far-Far-West-glory"
+      },
+      {
+        "slug": "Far-Far-West-hard-mode",
+        "file": "Far-Far-West-hard-mode"
+      },
+      {
+        "slug": "Far-Far-West-how-many-players",
+        "file": "Far-Far-West-how-many-players"
+      },
+      {
+        "slug": "Far-Far-West-how-to-play",
+        "file": "Far-Far-West-how-to-play"
+      },
+      {
+        "slug": "Far-Far-West-how-to-revive",
+        "file": "Far-Far-West-how-to-revive"
+      },
+      {
+        "slug": "Far-Far-West-jokers",
+        "file": "Far-Far-West-jokers"
+      },
+      {
+        "slug": "Far-Far-West-matchmaking",
+        "file": "Far-Far-West-matchmaking"
+      },
+      {
+        "slug": "Far-Far-West-mushroom-quest",
+        "file": "Far-Far-West-mushroom-quest"
+      },
+      {
+        "slug": "Far-Far-West-overview",
+        "file": "Far-Far-West-overview"
+      },
+      {
+        "slug": "Far-Far-West-progression",
+        "file": "Far-Far-West-progression"
+      },
+      {
+        "slug": "Far-Far-West-review",
+        "file": "Far-Far-West-review"
+      },
+      {
+        "slug": "Far-Far-West-secret-missions",
+        "file": "Far-Far-West-secret-missions"
+      },
+      {
+        "slug": "Far-Far-West-sheriff-stars",
+        "file": "Far-Far-West-sheriff-stars"
+      },
+      {
+        "slug": "Far-Far-West-shovel-quest",
+        "file": "Far-Far-West-shovel-quest"
+      },
+      {
+        "slug": "Far-Far-West-solo",
+        "file": "Far-Far-West-solo"
+      },
+      {
+        "slug": "Far-Far-West-souls-use",
+        "file": "Far-Far-West-souls-use"
+      },
+      {
+        "slug": "Far-Far-West-things-I-wish-I-knew",
+        "file": "Far-Far-West-things-I-wish-I-knew"
+      },
+      {
+        "slug": "Far-Far-West-tips",
+        "file": "Far-Far-West-tips"
+      },
+      {
+        "slug": "Far-Far-West-walkthrough",
+        "file": "Far-Far-West-walkthrough"
+      },
+      {
+        "slug": "Far-Far-West-wandering-trader",
+        "file": "Far-Far-West-wandering-trader"
+      },
+      {
+        "slug": "Far-Far-West-what-is-glory",
+        "file": "Far-Far-West-what-is-glory"
+      },
+      {
+        "slug": "Far-Far-West-worth-it",
+        "file": "Far-Far-West-worth-it"
+      },
+      {
+        "slug": "Far-Far-West-xp-tickets",
+        "file": "Far-Far-West-xp-tickets"
+      },
+      {
+        "slug": "area-41-graves",
+        "file": "area-41-graves"
+      },
+      {
+        "slug": "area-41-train",
+        "file": "area-41-train"
+      },
+      {
+        "slug": "can-you-play-far-far-west-solo",
+        "file": "can-you-play-far-far-west-solo"
+      },
+      {
+        "slug": "far-far-west-all-medallions",
+        "file": "far-far-west-all-medallions"
+      },
+      {
+        "slug": "far-far-west-area-41-secret-mission",
+        "file": "far-far-west-area-41-secret-mission"
+      },
+      {
+        "slug": "far-far-west-best-upgrades",
+        "file": "far-far-west-best-upgrades"
+      },
+      {
+        "slug": "far-far-west-blueprints",
+        "file": "far-far-west-blueprints"
+      },
+      {
+        "slug": "far-far-west-cross-platform",
+        "file": "far-far-west-cross-platform"
+      },
+      {
+        "slug": "far-far-west-crossplay",
+        "file": "far-far-west-crossplay"
+      },
+      {
+        "slug": "far-far-west-enemies",
+        "file": "far-far-west-enemies"
+      },
+      {
+        "slug": "far-far-west-evil-raptor",
+        "file": "far-far-west-evil-raptor"
+      },
+      {
+        "slug": "far-far-west-far-west-disc-fragments",
+        "file": "far-far-west-far-west-disc-fragments"
+      },
+      {
+        "slug": "far-far-west-how-to-make-fire-tornado",
+        "file": "far-far-west-how-to-make-fire-tornado"
+      },
+      {
+        "slug": "far-far-west-joker-cards",
+        "file": "far-far-west-joker-cards"
+      },
+      {
+        "slug": "far-far-west-legendary-jokers",
+        "file": "far-far-west-legendary-jokers"
+      },
+      {
+        "slug": "far-far-west-mushroom-stone",
+        "file": "far-far-west-mushroom-stone"
+      },
+      {
+        "slug": "far-far-west-road-map",
+        "file": "far-far-west-road-map"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "Far-Far-West-all-graves",
+        "file": "Far-Far-West-all-graves"
+      },
+      {
+        "slug": "Far-Far-West-area-41-graves",
+        "file": "Far-Far-West-area-41-graves"
+      },
+      {
+        "slug": "Far-Far-West-bell-locations",
+        "file": "Far-Far-West-bell-locations"
+      },
+      {
+        "slug": "Far-Far-West-cactus-family",
+        "file": "Far-Far-West-cactus-family"
+      },
+      {
+        "slug": "Far-Far-West-cactus-locations",
+        "file": "Far-Far-West-cactus-locations"
+      },
+      {
+        "slug": "Far-Far-West-canyon-grave-locations",
+        "file": "Far-Far-West-canyon-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-desert-cactus",
+        "file": "Far-Far-West-desert-cactus"
+      },
+      {
+        "slug": "Far-Far-West-desert-disc-locations",
+        "file": "Far-Far-West-desert-disc-locations"
+      },
+      {
+        "slug": "Far-Far-West-desert-grave-locations",
+        "file": "Far-Far-West-desert-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-far-far-north-graves",
+        "file": "Far-Far-West-far-far-north-graves"
+      },
+      {
+        "slug": "Far-Far-West-far-north-snowman",
+        "file": "Far-Far-West-far-north-snowman"
+      },
+      {
+        "slug": "Far-Far-West-grave-locations",
+        "file": "Far-Far-West-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-interactive-map",
+        "file": "Far-Far-West-interactive-map"
+      },
+      {
+        "slug": "Far-Far-West-lost-engine-location",
+        "file": "Far-Far-West-lost-engine-location"
+      },
+      {
+        "slug": "Far-Far-West-medallion-locations",
+        "file": "Far-Far-West-medallion-locations"
+      },
+      {
+        "slug": "Far-Far-West-music-disc-locations",
+        "file": "Far-Far-West-music-disc-locations"
+      },
+      {
+        "slug": "Far-Far-West-purple-rock",
+        "file": "Far-Far-West-purple-rock"
+      },
+      {
+        "slug": "Far-Far-West-trainwreck",
+        "file": "Far-Far-West-trainwreck"
+      },
+      {
+        "slug": "Far-Far-West-woodlands-mushrooms",
+        "file": "Far-Far-West-woodlands-mushrooms"
+      },
+      {
+        "slug": "far-far-west-area-41-train",
+        "file": "far-far-west-area-41-train"
+      },
+      {
+        "slug": "far-far-west-area-41",
+        "file": "far-far-west-area-41"
+      },
+      {
+        "slug": "far-far-west-bell-quest",
+        "file": "far-far-west-bell-quest"
+      },
+      {
+        "slug": "far-far-west-cactus-build",
+        "file": "far-far-west-cactus-build"
+      },
+      {
+        "slug": "far-far-west-cactus",
+        "file": "far-far-west-cactus"
+      },
+      {
+        "slug": "far-far-west-canyon-discs",
+        "file": "far-far-west-canyon-discs"
+      },
+      {
+        "slug": "far-far-west-canyon-graves",
+        "file": "far-far-west-canyon-graves"
+      },
+      {
+        "slug": "far-far-west-canyon-medallions",
+        "file": "far-far-west-canyon-medallions"
+      },
+      {
+        "slug": "far-far-west-canyon-quest",
+        "file": "far-far-west-canyon-quest"
+      },
+      {
+        "slug": "far-far-west-far-far-north-secret",
+        "file": "far-far-west-far-far-north-secret"
+      },
+      {
+        "slug": "far-far-west-map",
+        "file": "far-far-west-map"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Far-Far-West-download",
+        "file": "Far-Far-West-download"
+      },
+      {
+        "slug": "Far-Far-West-early-access",
+        "file": "Far-Far-West-early-access"
+      },
+      {
+        "slug": "Far-Far-West-full-release-date",
+        "file": "Far-Far-West-full-release-date"
+      },
+      {
+        "slug": "Far-Far-West-news",
+        "file": "Far-Far-West-news"
+      },
+      {
+        "slug": "Far-Far-West-patch-notes",
+        "file": "Far-Far-West-patch-notes"
+      },
+      {
+        "slug": "Far-Far-West-price",
+        "file": "Far-Far-West-price"
+      },
+      {
+        "slug": "Far-Far-West-release-date",
+        "file": "Far-Far-West-release-date"
+      },
+      {
+        "slug": "Far-Far-West-roadmap",
+        "file": "Far-Far-West-roadmap"
+      },
+      {
+        "slug": "Far-Far-West-update",
+        "file": "Far-Far-West-update"
+      },
+      {
+        "slug": "can-you-play-far-far-west-on-xbox",
+        "file": "can-you-play-far-far-west-on-xbox"
+      }
+    ],
+    "spells": [
+      {
+        "slug": "Far-Far-West-all-spell-combos",
+        "file": "Far-Far-West-all-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-cactus-spell-combos",
+        "file": "Far-Far-West-cactus-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-elemental-combos",
+        "file": "Far-Far-West-elemental-combos"
+      },
+      {
+        "slug": "Far-Far-West-elements",
+        "file": "Far-Far-West-elements"
+      },
+      {
+        "slug": "Far-Far-West-fire-tornado",
+        "file": "Far-Far-West-fire-tornado"
+      },
+      {
+        "slug": "Far-Far-West-magic-combos",
+        "file": "Far-Far-West-magic-combos"
+      },
+      {
+        "slug": "Far-Far-West-spell-combos",
+        "file": "Far-Far-West-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-spell-tier-list",
+        "file": "Far-Far-West-spell-tier-list"
+      },
+      {
+        "slug": "Far-Far-West-spell-xp",
+        "file": "Far-Far-West-spell-xp"
+      },
+      {
+        "slug": "Far-Far-West-voodoo-combos",
+        "file": "Far-Far-West-voodoo-combos"
+      },
+      {
+        "slug": "far-far-west-combos",
+        "file": "far-far-west-combos"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Far-Far-West-best-build",
+        "file": "Far-Far-West-best-build"
+      },
+      {
+        "slug": "Far-Far-West-best-gun",
+        "file": "Far-Far-West-best-gun"
+      },
+      {
+        "slug": "Far-Far-West-best-weapons",
+        "file": "Far-Far-West-best-weapons"
+      },
+      {
+        "slug": "Far-Far-West-boomerang",
+        "file": "Far-Far-West-boomerang"
+      },
+      {
+        "slug": "Far-Far-West-bow",
+        "file": "Far-Far-West-bow"
+      },
+      {
+        "slug": "Far-Far-West-builds",
+        "file": "Far-Far-West-builds"
+      },
+      {
+        "slug": "Far-Far-West-deadeye",
+        "file": "Far-Far-West-deadeye"
+      },
+      {
+        "slug": "Far-Far-West-leveredge",
+        "file": "Far-Far-West-leveredge"
+      },
+      {
+        "slug": "Far-Far-West-quad-cylinder",
+        "file": "Far-Far-West-quad-cylinder"
+      },
+      {
+        "slug": "Far-Far-West-revolver",
+        "file": "Far-Far-West-revolver"
+      },
+      {
+        "slug": "Far-Far-West-speedster",
+        "file": "Far-Far-West-speedster"
+      },
+      {
+        "slug": "Far-Far-West-upgrades",
+        "file": "Far-Far-West-upgrades"
+      },
+      {
+        "slug": "Far-Far-West-weapon-glory",
+        "file": "Far-Far-West-weapon-glory"
+      },
+      {
+        "slug": "Far-Far-West-weapons",
+        "file": "Far-Far-West-weapons"
+      },
+      {
+        "slug": "far-far-west-boomerang-build",
+        "file": "far-far-west-boomerang-build"
+      },
+      {
+        "slug": "far-far-west-bow-build",
+        "file": "far-far-west-bow-build"
+      },
+      {
+        "slug": "far-far-west-quad-cylinder-build",
+        "file": "far-far-west-quad-cylinder-build"
+      },
+      {
+        "slug": "far-far-west-revolver-build",
+        "file": "far-far-west-revolver-build"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "Far-Far-West-codes",
+        "file": "Far-Far-West-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Far-Far-West-before-you-buy",
+        "file": "Far-Far-West-before-you-buy"
+      },
+      {
+        "slug": "Far-Far-West-beginner-guide",
+        "file": "Far-Far-West-beginner-guide"
+      },
+      {
+        "slug": "Far-Far-West-danger-zone",
+        "file": "Far-Far-West-danger-zone"
+      },
+      {
+        "slug": "Far-Far-West-glory",
+        "file": "Far-Far-West-glory"
+      },
+      {
+        "slug": "Far-Far-West-hard-mode",
+        "file": "Far-Far-West-hard-mode"
+      },
+      {
+        "slug": "Far-Far-West-how-many-players",
+        "file": "Far-Far-West-how-many-players"
+      },
+      {
+        "slug": "Far-Far-West-how-to-play",
+        "file": "Far-Far-West-how-to-play"
+      },
+      {
+        "slug": "Far-Far-West-how-to-revive",
+        "file": "Far-Far-West-how-to-revive"
+      },
+      {
+        "slug": "Far-Far-West-jokers",
+        "file": "Far-Far-West-jokers"
+      },
+      {
+        "slug": "Far-Far-West-matchmaking",
+        "file": "Far-Far-West-matchmaking"
+      },
+      {
+        "slug": "Far-Far-West-mushroom-quest",
+        "file": "Far-Far-West-mushroom-quest"
+      },
+      {
+        "slug": "Far-Far-West-overview",
+        "file": "Far-Far-West-overview"
+      },
+      {
+        "slug": "Far-Far-West-progression",
+        "file": "Far-Far-West-progression"
+      },
+      {
+        "slug": "Far-Far-West-review",
+        "file": "Far-Far-West-review"
+      },
+      {
+        "slug": "Far-Far-West-secret-missions",
+        "file": "Far-Far-West-secret-missions"
+      },
+      {
+        "slug": "Far-Far-West-sheriff-stars",
+        "file": "Far-Far-West-sheriff-stars"
+      },
+      {
+        "slug": "Far-Far-West-shovel-quest",
+        "file": "Far-Far-West-shovel-quest"
+      },
+      {
+        "slug": "Far-Far-West-solo",
+        "file": "Far-Far-West-solo"
+      },
+      {
+        "slug": "Far-Far-West-souls-use",
+        "file": "Far-Far-West-souls-use"
+      },
+      {
+        "slug": "Far-Far-West-things-I-wish-I-knew",
+        "file": "Far-Far-West-things-I-wish-I-knew"
+      },
+      {
+        "slug": "Far-Far-West-tips",
+        "file": "Far-Far-West-tips"
+      },
+      {
+        "slug": "Far-Far-West-walkthrough",
+        "file": "Far-Far-West-walkthrough"
+      },
+      {
+        "slug": "Far-Far-West-wandering-trader",
+        "file": "Far-Far-West-wandering-trader"
+      },
+      {
+        "slug": "Far-Far-West-what-is-glory",
+        "file": "Far-Far-West-what-is-glory"
+      },
+      {
+        "slug": "Far-Far-West-worth-it",
+        "file": "Far-Far-West-worth-it"
+      },
+      {
+        "slug": "Far-Far-West-xp-tickets",
+        "file": "Far-Far-West-xp-tickets"
+      },
+      {
+        "slug": "area-41-graves",
+        "file": "area-41-graves"
+      },
+      {
+        "slug": "area-41-train",
+        "file": "area-41-train"
+      },
+      {
+        "slug": "can-you-play-far-far-west-solo",
+        "file": "can-you-play-far-far-west-solo"
+      },
+      {
+        "slug": "far-far-west-all-medallions",
+        "file": "far-far-west-all-medallions"
+      },
+      {
+        "slug": "far-far-west-area-41-secret-mission",
+        "file": "far-far-west-area-41-secret-mission"
+      },
+      {
+        "slug": "far-far-west-best-upgrades",
+        "file": "far-far-west-best-upgrades"
+      },
+      {
+        "slug": "far-far-west-blueprints",
+        "file": "far-far-west-blueprints"
+      },
+      {
+        "slug": "far-far-west-cross-platform",
+        "file": "far-far-west-cross-platform"
+      },
+      {
+        "slug": "far-far-west-crossplay",
+        "file": "far-far-west-crossplay"
+      },
+      {
+        "slug": "far-far-west-enemies",
+        "file": "far-far-west-enemies"
+      },
+      {
+        "slug": "far-far-west-evil-raptor",
+        "file": "far-far-west-evil-raptor"
+      },
+      {
+        "slug": "far-far-west-far-west-disc-fragments",
+        "file": "far-far-west-far-west-disc-fragments"
+      },
+      {
+        "slug": "far-far-west-how-to-make-fire-tornado",
+        "file": "far-far-west-how-to-make-fire-tornado"
+      },
+      {
+        "slug": "far-far-west-joker-cards",
+        "file": "far-far-west-joker-cards"
+      },
+      {
+        "slug": "far-far-west-legendary-jokers",
+        "file": "far-far-west-legendary-jokers"
+      },
+      {
+        "slug": "far-far-west-mushroom-stone",
+        "file": "far-far-west-mushroom-stone"
+      },
+      {
+        "slug": "far-far-west-road-map",
+        "file": "far-far-west-road-map"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "Far-Far-West-all-graves",
+        "file": "Far-Far-West-all-graves"
+      },
+      {
+        "slug": "Far-Far-West-area-41-graves",
+        "file": "Far-Far-West-area-41-graves"
+      },
+      {
+        "slug": "Far-Far-West-bell-locations",
+        "file": "Far-Far-West-bell-locations"
+      },
+      {
+        "slug": "Far-Far-West-cactus-family",
+        "file": "Far-Far-West-cactus-family"
+      },
+      {
+        "slug": "Far-Far-West-cactus-locations",
+        "file": "Far-Far-West-cactus-locations"
+      },
+      {
+        "slug": "Far-Far-West-canyon-grave-locations",
+        "file": "Far-Far-West-canyon-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-desert-cactus",
+        "file": "Far-Far-West-desert-cactus"
+      },
+      {
+        "slug": "Far-Far-West-desert-disc-locations",
+        "file": "Far-Far-West-desert-disc-locations"
+      },
+      {
+        "slug": "Far-Far-West-desert-grave-locations",
+        "file": "Far-Far-West-desert-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-far-far-north-graves",
+        "file": "Far-Far-West-far-far-north-graves"
+      },
+      {
+        "slug": "Far-Far-West-far-north-snowman",
+        "file": "Far-Far-West-far-north-snowman"
+      },
+      {
+        "slug": "Far-Far-West-grave-locations",
+        "file": "Far-Far-West-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-interactive-map",
+        "file": "Far-Far-West-interactive-map"
+      },
+      {
+        "slug": "Far-Far-West-lost-engine-location",
+        "file": "Far-Far-West-lost-engine-location"
+      },
+      {
+        "slug": "Far-Far-West-medallion-locations",
+        "file": "Far-Far-West-medallion-locations"
+      },
+      {
+        "slug": "Far-Far-West-music-disc-locations",
+        "file": "Far-Far-West-music-disc-locations"
+      },
+      {
+        "slug": "Far-Far-West-purple-rock",
+        "file": "Far-Far-West-purple-rock"
+      },
+      {
+        "slug": "Far-Far-West-trainwreck",
+        "file": "Far-Far-West-trainwreck"
+      },
+      {
+        "slug": "Far-Far-West-woodlands-mushrooms",
+        "file": "Far-Far-West-woodlands-mushrooms"
+      },
+      {
+        "slug": "far-far-west-area-41-train",
+        "file": "far-far-west-area-41-train"
+      },
+      {
+        "slug": "far-far-west-area-41",
+        "file": "far-far-west-area-41"
+      },
+      {
+        "slug": "far-far-west-bell-quest",
+        "file": "far-far-west-bell-quest"
+      },
+      {
+        "slug": "far-far-west-cactus-build",
+        "file": "far-far-west-cactus-build"
+      },
+      {
+        "slug": "far-far-west-cactus",
+        "file": "far-far-west-cactus"
+      },
+      {
+        "slug": "far-far-west-canyon-discs",
+        "file": "far-far-west-canyon-discs"
+      },
+      {
+        "slug": "far-far-west-canyon-graves",
+        "file": "far-far-west-canyon-graves"
+      },
+      {
+        "slug": "far-far-west-canyon-medallions",
+        "file": "far-far-west-canyon-medallions"
+      },
+      {
+        "slug": "far-far-west-canyon-quest",
+        "file": "far-far-west-canyon-quest"
+      },
+      {
+        "slug": "far-far-west-far-far-north-secret",
+        "file": "far-far-west-far-far-north-secret"
+      },
+      {
+        "slug": "far-far-west-map",
+        "file": "far-far-west-map"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Far-Far-West-download",
+        "file": "Far-Far-West-download"
+      },
+      {
+        "slug": "Far-Far-West-early-access",
+        "file": "Far-Far-West-early-access"
+      },
+      {
+        "slug": "Far-Far-West-full-release-date",
+        "file": "Far-Far-West-full-release-date"
+      },
+      {
+        "slug": "Far-Far-West-news",
+        "file": "Far-Far-West-news"
+      },
+      {
+        "slug": "Far-Far-West-patch-notes",
+        "file": "Far-Far-West-patch-notes"
+      },
+      {
+        "slug": "Far-Far-West-price",
+        "file": "Far-Far-West-price"
+      },
+      {
+        "slug": "Far-Far-West-release-date",
+        "file": "Far-Far-West-release-date"
+      },
+      {
+        "slug": "Far-Far-West-roadmap",
+        "file": "Far-Far-West-roadmap"
+      },
+      {
+        "slug": "Far-Far-West-update",
+        "file": "Far-Far-West-update"
+      },
+      {
+        "slug": "can-you-play-far-far-west-on-xbox",
+        "file": "can-you-play-far-far-west-on-xbox"
+      }
+    ],
+    "spells": [
+      {
+        "slug": "Far-Far-West-all-spell-combos",
+        "file": "Far-Far-West-all-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-cactus-spell-combos",
+        "file": "Far-Far-West-cactus-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-elemental-combos",
+        "file": "Far-Far-West-elemental-combos"
+      },
+      {
+        "slug": "Far-Far-West-elements",
+        "file": "Far-Far-West-elements"
+      },
+      {
+        "slug": "Far-Far-West-fire-tornado",
+        "file": "Far-Far-West-fire-tornado"
+      },
+      {
+        "slug": "Far-Far-West-magic-combos",
+        "file": "Far-Far-West-magic-combos"
+      },
+      {
+        "slug": "Far-Far-West-spell-combos",
+        "file": "Far-Far-West-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-spell-tier-list",
+        "file": "Far-Far-West-spell-tier-list"
+      },
+      {
+        "slug": "Far-Far-West-spell-xp",
+        "file": "Far-Far-West-spell-xp"
+      },
+      {
+        "slug": "Far-Far-West-voodoo-combos",
+        "file": "Far-Far-West-voodoo-combos"
+      },
+      {
+        "slug": "far-far-west-combos",
+        "file": "far-far-west-combos"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Far-Far-West-best-build",
+        "file": "Far-Far-West-best-build"
+      },
+      {
+        "slug": "Far-Far-West-best-gun",
+        "file": "Far-Far-West-best-gun"
+      },
+      {
+        "slug": "Far-Far-West-best-weapons",
+        "file": "Far-Far-West-best-weapons"
+      },
+      {
+        "slug": "Far-Far-West-boomerang",
+        "file": "Far-Far-West-boomerang"
+      },
+      {
+        "slug": "Far-Far-West-bow",
+        "file": "Far-Far-West-bow"
+      },
+      {
+        "slug": "Far-Far-West-builds",
+        "file": "Far-Far-West-builds"
+      },
+      {
+        "slug": "Far-Far-West-deadeye",
+        "file": "Far-Far-West-deadeye"
+      },
+      {
+        "slug": "Far-Far-West-leveredge",
+        "file": "Far-Far-West-leveredge"
+      },
+      {
+        "slug": "Far-Far-West-quad-cylinder",
+        "file": "Far-Far-West-quad-cylinder"
+      },
+      {
+        "slug": "Far-Far-West-revolver",
+        "file": "Far-Far-West-revolver"
+      },
+      {
+        "slug": "Far-Far-West-speedster",
+        "file": "Far-Far-West-speedster"
+      },
+      {
+        "slug": "Far-Far-West-upgrades",
+        "file": "Far-Far-West-upgrades"
+      },
+      {
+        "slug": "Far-Far-West-weapon-glory",
+        "file": "Far-Far-West-weapon-glory"
+      },
+      {
+        "slug": "Far-Far-West-weapons",
+        "file": "Far-Far-West-weapons"
+      },
+      {
+        "slug": "far-far-west-boomerang-build",
+        "file": "far-far-west-boomerang-build"
+      },
+      {
+        "slug": "far-far-west-bow-build",
+        "file": "far-far-west-bow-build"
+      },
+      {
+        "slug": "far-far-west-quad-cylinder-build",
+        "file": "far-far-west-quad-cylinder-build"
+      },
+      {
+        "slug": "far-far-west-revolver-build",
+        "file": "far-far-west-revolver-build"
+      }
+    ]
+  },
+  "ru": {
+    "codes": [
+      {
+        "slug": "Far-Far-West-codes",
+        "file": "Far-Far-West-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Far-Far-West-before-you-buy",
+        "file": "Far-Far-West-before-you-buy"
+      },
+      {
+        "slug": "Far-Far-West-beginner-guide",
+        "file": "Far-Far-West-beginner-guide"
+      },
+      {
+        "slug": "Far-Far-West-danger-zone",
+        "file": "Far-Far-West-danger-zone"
+      },
+      {
+        "slug": "Far-Far-West-glory",
+        "file": "Far-Far-West-glory"
+      },
+      {
+        "slug": "Far-Far-West-hard-mode",
+        "file": "Far-Far-West-hard-mode"
+      },
+      {
+        "slug": "Far-Far-West-how-many-players",
+        "file": "Far-Far-West-how-many-players"
+      },
+      {
+        "slug": "Far-Far-West-how-to-play",
+        "file": "Far-Far-West-how-to-play"
+      },
+      {
+        "slug": "Far-Far-West-how-to-revive",
+        "file": "Far-Far-West-how-to-revive"
+      },
+      {
+        "slug": "Far-Far-West-jokers",
+        "file": "Far-Far-West-jokers"
+      },
+      {
+        "slug": "Far-Far-West-matchmaking",
+        "file": "Far-Far-West-matchmaking"
+      },
+      {
+        "slug": "Far-Far-West-mushroom-quest",
+        "file": "Far-Far-West-mushroom-quest"
+      },
+      {
+        "slug": "Far-Far-West-overview",
+        "file": "Far-Far-West-overview"
+      },
+      {
+        "slug": "Far-Far-West-progression",
+        "file": "Far-Far-West-progression"
+      },
+      {
+        "slug": "Far-Far-West-review",
+        "file": "Far-Far-West-review"
+      },
+      {
+        "slug": "Far-Far-West-secret-missions",
+        "file": "Far-Far-West-secret-missions"
+      },
+      {
+        "slug": "Far-Far-West-sheriff-stars",
+        "file": "Far-Far-West-sheriff-stars"
+      },
+      {
+        "slug": "Far-Far-West-shovel-quest",
+        "file": "Far-Far-West-shovel-quest"
+      },
+      {
+        "slug": "Far-Far-West-solo",
+        "file": "Far-Far-West-solo"
+      },
+      {
+        "slug": "Far-Far-West-souls-use",
+        "file": "Far-Far-West-souls-use"
+      },
+      {
+        "slug": "Far-Far-West-things-I-wish-I-knew",
+        "file": "Far-Far-West-things-I-wish-I-knew"
+      },
+      {
+        "slug": "Far-Far-West-tips",
+        "file": "Far-Far-West-tips"
+      },
+      {
+        "slug": "Far-Far-West-walkthrough",
+        "file": "Far-Far-West-walkthrough"
+      },
+      {
+        "slug": "Far-Far-West-wandering-trader",
+        "file": "Far-Far-West-wandering-trader"
+      },
+      {
+        "slug": "Far-Far-West-what-is-glory",
+        "file": "Far-Far-West-what-is-glory"
+      },
+      {
+        "slug": "Far-Far-West-worth-it",
+        "file": "Far-Far-West-worth-it"
+      },
+      {
+        "slug": "Far-Far-West-xp-tickets",
+        "file": "Far-Far-West-xp-tickets"
+      },
+      {
+        "slug": "area-41-graves",
+        "file": "area-41-graves"
+      },
+      {
+        "slug": "area-41-train",
+        "file": "area-41-train"
+      },
+      {
+        "slug": "can-you-play-far-far-west-solo",
+        "file": "can-you-play-far-far-west-solo"
+      },
+      {
+        "slug": "far-far-west-all-medallions",
+        "file": "far-far-west-all-medallions"
+      },
+      {
+        "slug": "far-far-west-area-41-secret-mission",
+        "file": "far-far-west-area-41-secret-mission"
+      },
+      {
+        "slug": "far-far-west-best-upgrades",
+        "file": "far-far-west-best-upgrades"
+      },
+      {
+        "slug": "far-far-west-blueprints",
+        "file": "far-far-west-blueprints"
+      },
+      {
+        "slug": "far-far-west-cross-platform",
+        "file": "far-far-west-cross-platform"
+      },
+      {
+        "slug": "far-far-west-crossplay",
+        "file": "far-far-west-crossplay"
+      },
+      {
+        "slug": "far-far-west-enemies",
+        "file": "far-far-west-enemies"
+      },
+      {
+        "slug": "far-far-west-evil-raptor",
+        "file": "far-far-west-evil-raptor"
+      },
+      {
+        "slug": "far-far-west-far-west-disc-fragments",
+        "file": "far-far-west-far-west-disc-fragments"
+      },
+      {
+        "slug": "far-far-west-how-to-make-fire-tornado",
+        "file": "far-far-west-how-to-make-fire-tornado"
+      },
+      {
+        "slug": "far-far-west-joker-cards",
+        "file": "far-far-west-joker-cards"
+      },
+      {
+        "slug": "far-far-west-legendary-jokers",
+        "file": "far-far-west-legendary-jokers"
+      },
+      {
+        "slug": "far-far-west-mushroom-stone",
+        "file": "far-far-west-mushroom-stone"
+      },
+      {
+        "slug": "far-far-west-road-map",
+        "file": "far-far-west-road-map"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "Far-Far-West-all-graves",
+        "file": "Far-Far-West-all-graves"
+      },
+      {
+        "slug": "Far-Far-West-area-41-graves",
+        "file": "Far-Far-West-area-41-graves"
+      },
+      {
+        "slug": "Far-Far-West-bell-locations",
+        "file": "Far-Far-West-bell-locations"
+      },
+      {
+        "slug": "Far-Far-West-cactus-family",
+        "file": "Far-Far-West-cactus-family"
+      },
+      {
+        "slug": "Far-Far-West-cactus-locations",
+        "file": "Far-Far-West-cactus-locations"
+      },
+      {
+        "slug": "Far-Far-West-canyon-grave-locations",
+        "file": "Far-Far-West-canyon-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-desert-cactus",
+        "file": "Far-Far-West-desert-cactus"
+      },
+      {
+        "slug": "Far-Far-West-desert-disc-locations",
+        "file": "Far-Far-West-desert-disc-locations"
+      },
+      {
+        "slug": "Far-Far-West-desert-grave-locations",
+        "file": "Far-Far-West-desert-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-far-far-north-graves",
+        "file": "Far-Far-West-far-far-north-graves"
+      },
+      {
+        "slug": "Far-Far-West-far-north-snowman",
+        "file": "Far-Far-West-far-north-snowman"
+      },
+      {
+        "slug": "Far-Far-West-grave-locations",
+        "file": "Far-Far-West-grave-locations"
+      },
+      {
+        "slug": "Far-Far-West-interactive-map",
+        "file": "Far-Far-West-interactive-map"
+      },
+      {
+        "slug": "Far-Far-West-lost-engine-location",
+        "file": "Far-Far-West-lost-engine-location"
+      },
+      {
+        "slug": "Far-Far-West-medallion-locations",
+        "file": "Far-Far-West-medallion-locations"
+      },
+      {
+        "slug": "Far-Far-West-music-disc-locations",
+        "file": "Far-Far-West-music-disc-locations"
+      },
+      {
+        "slug": "Far-Far-West-purple-rock",
+        "file": "Far-Far-West-purple-rock"
+      },
+      {
+        "slug": "Far-Far-West-trainwreck",
+        "file": "Far-Far-West-trainwreck"
+      },
+      {
+        "slug": "Far-Far-West-woodlands-mushrooms",
+        "file": "Far-Far-West-woodlands-mushrooms"
+      },
+      {
+        "slug": "far-far-west-area-41-train",
+        "file": "far-far-west-area-41-train"
+      },
+      {
+        "slug": "far-far-west-area-41",
+        "file": "far-far-west-area-41"
+      },
+      {
+        "slug": "far-far-west-bell-quest",
+        "file": "far-far-west-bell-quest"
+      },
+      {
+        "slug": "far-far-west-cactus-build",
+        "file": "far-far-west-cactus-build"
+      },
+      {
+        "slug": "far-far-west-cactus",
+        "file": "far-far-west-cactus"
+      },
+      {
+        "slug": "far-far-west-canyon-discs",
+        "file": "far-far-west-canyon-discs"
+      },
+      {
+        "slug": "far-far-west-canyon-graves",
+        "file": "far-far-west-canyon-graves"
+      },
+      {
+        "slug": "far-far-west-canyon-medallions",
+        "file": "far-far-west-canyon-medallions"
+      },
+      {
+        "slug": "far-far-west-canyon-quest",
+        "file": "far-far-west-canyon-quest"
+      },
+      {
+        "slug": "far-far-west-far-far-north-secret",
+        "file": "far-far-west-far-far-north-secret"
+      },
+      {
+        "slug": "far-far-west-map",
+        "file": "far-far-west-map"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Far-Far-West-download",
+        "file": "Far-Far-West-download"
+      },
+      {
+        "slug": "Far-Far-West-early-access",
+        "file": "Far-Far-West-early-access"
+      },
+      {
+        "slug": "Far-Far-West-full-release-date",
+        "file": "Far-Far-West-full-release-date"
+      },
+      {
+        "slug": "Far-Far-West-news",
+        "file": "Far-Far-West-news"
+      },
+      {
+        "slug": "Far-Far-West-patch-notes",
+        "file": "Far-Far-West-patch-notes"
+      },
+      {
+        "slug": "Far-Far-West-price",
+        "file": "Far-Far-West-price"
+      },
+      {
+        "slug": "Far-Far-West-release-date",
+        "file": "Far-Far-West-release-date"
+      },
+      {
+        "slug": "Far-Far-West-roadmap",
+        "file": "Far-Far-West-roadmap"
+      },
+      {
+        "slug": "Far-Far-West-update",
+        "file": "Far-Far-West-update"
+      },
+      {
+        "slug": "can-you-play-far-far-west-on-xbox",
+        "file": "can-you-play-far-far-west-on-xbox"
+      }
+    ],
+    "spells": [
+      {
+        "slug": "Far-Far-West-all-spell-combos",
+        "file": "Far-Far-West-all-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-cactus-spell-combos",
+        "file": "Far-Far-West-cactus-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-elemental-combos",
+        "file": "Far-Far-West-elemental-combos"
+      },
+      {
+        "slug": "Far-Far-West-elements",
+        "file": "Far-Far-West-elements"
+      },
+      {
+        "slug": "Far-Far-West-fire-tornado",
+        "file": "Far-Far-West-fire-tornado"
+      },
+      {
+        "slug": "Far-Far-West-magic-combos",
+        "file": "Far-Far-West-magic-combos"
+      },
+      {
+        "slug": "Far-Far-West-spell-combos",
+        "file": "Far-Far-West-spell-combos"
+      },
+      {
+        "slug": "Far-Far-West-spell-tier-list",
+        "file": "Far-Far-West-spell-tier-list"
+      },
+      {
+        "slug": "Far-Far-West-spell-xp",
+        "file": "Far-Far-West-spell-xp"
+      },
+      {
+        "slug": "Far-Far-West-voodoo-combos",
+        "file": "Far-Far-West-voodoo-combos"
+      },
+      {
+        "slug": "far-far-west-combos",
+        "file": "far-far-west-combos"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Far-Far-West-best-build",
+        "file": "Far-Far-West-best-build"
+      },
+      {
+        "slug": "Far-Far-West-best-gun",
+        "file": "Far-Far-West-best-gun"
+      },
+      {
+        "slug": "Far-Far-West-best-weapons",
+        "file": "Far-Far-West-best-weapons"
+      },
+      {
+        "slug": "Far-Far-West-boomerang",
+        "file": "Far-Far-West-boomerang"
+      },
+      {
+        "slug": "Far-Far-West-bow",
+        "file": "Far-Far-West-bow"
+      },
+      {
+        "slug": "Far-Far-West-builds",
+        "file": "Far-Far-West-builds"
+      },
+      {
+        "slug": "Far-Far-West-deadeye",
+        "file": "Far-Far-West-deadeye"
+      },
+      {
+        "slug": "Far-Far-West-leveredge",
+        "file": "Far-Far-West-leveredge"
+      },
+      {
+        "slug": "Far-Far-West-quad-cylinder",
+        "file": "Far-Far-West-quad-cylinder"
+      },
+      {
+        "slug": "Far-Far-West-revolver",
+        "file": "Far-Far-West-revolver"
+      },
+      {
+        "slug": "Far-Far-West-speedster",
+        "file": "Far-Far-West-speedster"
+      },
+      {
+        "slug": "Far-Far-West-upgrades",
+        "file": "Far-Far-West-upgrades"
+      },
+      {
+        "slug": "Far-Far-West-weapon-glory",
+        "file": "Far-Far-West-weapon-glory"
+      },
+      {
+        "slug": "Far-Far-West-weapons",
+        "file": "Far-Far-West-weapons"
+      },
+      {
+        "slug": "far-far-west-boomerang-build",
+        "file": "far-far-west-boomerang-build"
+      },
+      {
+        "slug": "far-far-west-bow-build",
+        "file": "far-far-west-bow-build"
+      },
+      {
+        "slug": "far-far-west-quad-cylinder-build",
+        "file": "far-far-west-quad-cylinder-build"
+      },
+      {
+        "slug": "far-far-west-revolver-build",
+        "file": "far-far-west-revolver-build"
+      }
+    ]
+  }
+}
