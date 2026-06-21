@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
 import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
@@ -12,6 +13,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://far-far-west.wiki'
   const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
   const localizedPath = locale === 'en' ? '' : `/${locale}`
@@ -50,6 +52,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://far-far-west.wiki'
   const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
   const localizedPath = locale === 'en' ? '' : `/${locale}`
